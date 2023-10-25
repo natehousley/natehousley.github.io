@@ -2,17 +2,9 @@
 layout: page
 title: About
 permalink: /about/
+email: mailto:natehousley@outlook.com
 ---
+Nate Housley is a public historian and independent researcher. He organizes with Democratic Socialists of Salt Lake.
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Nate was born and raised in South Carolina, though he has Mormon ancestry from Utah and Idaho. He now lives in Salt Lake City, where he enjoys the outdoors year-round. To contact Nate, click the link <a href="mailto:natehousley@outlook.com">here</a>.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
-
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
-
-
-[jekyll-organization]: https://github.com/jekyll
