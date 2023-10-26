@@ -5,12 +5,6 @@
 layout: home
 ---
 <hr>
-<h2>Education</h2>
-  <h4>
-  <p>MA US History, University of Utah 2019</p>
-  <p>BA English, Brigham Young University, Provo 2006</p>
-  </h4> 
-<hr>
 <h2>Work</h2>
   <h4>
 <p>Topic areas: Western history, labor, land and water, uranium
@@ -32,3 +26,9 @@ layout: home
 </p><p><a href="https://www.utahhumanities.org/stories/items/show/377" target="_blank">Legalized Water Theft: The Daniels Diversion</a>
 </p><p><a href="https://www.utahhumanities.org/stories/items/show/452" target="_blank">Adapt or Die: Utah's Contested Water History</a>
 </p><hr>
+<h2>Education</h2>
+  <h4>
+  <p>MA US History, University of Utah 2019</p>
+  <p>BA English, Brigham Young University, Provo 2006</p>
+  </h4>
+<hr>
