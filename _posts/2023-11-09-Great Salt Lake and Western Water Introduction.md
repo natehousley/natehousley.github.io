@@ -16,16 +16,29 @@ If you want to get involved, there are a variety of groups based in or near Salt
 
 Finally, I endorse a set of principles commonly known as the <a href="http://www.riversimulator.org/Resources/Tribes/DRAFTDeclarationForWaterJustice2017Bluff.pdf">Bluff Principles</a>, or "Indigenous Peoples Declaration for Water Justice in the Colorado River Watershed." I recommend reading it, even though Great Salt Lake is outside the Colorado River Basin.
 
+
 <a href="https://www.stopthepollutingport.org>Stop the Polluting Port Coalition</a>
+
 <a href="https://saveourgreatsaltlake.org">Save Our Great Salt Lake</a>
+
 <a href="https://www.fogsl.org">Friends of Great Salt Lake</a>
+
 <a href="https://utahrivers.org">Utah Rivers Council</a>
+
 <a href="https://greatbasinwater.org">Great Basin Water Network</a>
+
 <a href="https://utahyes.org">Utah Youth Environmental Solutions</a>
+
 <a href="https://www.instagram.com/youthcoalitiongsl/">Youth Coalition for Great Salt Lake</a>
+
 <a href="https://www.healutah.org">HEAL Utah</a>
+
 <a href="https://www.sierraclub.org/utah">Utah Sierra Club</a>
+
 <a href="https://greatsaltlakeaudubon.org">Great Salt Lake Audubon</a>
+
 <a href="https://saltlakedsa.org">Democratic Socialists of Salt Lake</a>
+
 <a href="https://www.boaogoi.org">Boa Ogoi Cultural & Interpretive Center</a>
+
 <a href="https://westminster.edu/student-life/great-salt-lake-institute/index.html">Great Salt Lake Institute</a>
