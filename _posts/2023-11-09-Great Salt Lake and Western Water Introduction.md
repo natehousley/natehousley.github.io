@@ -14,7 +14,7 @@ I work as a public historian, with a focus on Utah history and history of the US
 
 If you want to get involved, there are a variety of groups based in or near Salt Lake City. (I am listing these as a resource, not as an unconditional endorsement of their personnel or policies.) Links are below.
 
-Finally, I endorse a set of principles commonly known as the <a href="http://www.riversimulator.org/Resources/Tribes/DRAFTDeclarationForWaterJustice2017Bluff.pdf">Bluff Principles>/a>, or "Indigenous Peoples Declaration for Water Justice in the Colorado River Watershed." I recommend reading it, even though Great Salt Lake is outside the Colorado River Basin.
+Finally, I endorse a set of principles commonly known as the <a href="http://www.riversimulator.org/Resources/Tribes/DRAFTDeclarationForWaterJustice2017Bluff.pdf">Bluff Principles</a>, or "Indigenous Peoples Declaration for Water Justice in the Colorado River Watershed." I recommend reading it, even though Great Salt Lake is outside the Colorado River Basin.
 
 <a href="https://www.stopthepollutingport.org>Stop the Polluting Port Coalition</a>
 <a href="https://saveourgreatsaltlake.org">Save Our Great Salt Lake</a>
