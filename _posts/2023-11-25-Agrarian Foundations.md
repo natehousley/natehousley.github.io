@@ -10,7 +10,9 @@ Given that the project was in an entirely different major watershed, what does t
 
 I've decided to start this series in this way because it will help to draw out two important points: agriculture was culturally and ideologically very, very important for 19th century America, and agriculture was very, very difficult in the Interior West. Concerning the second point, there is a simple explanation for why the Colorado River Indian Irrigation Project wasn't completed: the project was poorly planned, went over budget, and ran out of money. The more intriguing question is why settlers invested so much time, money, and effort into the irrigation works that make agriculture viable. The Great Basin runs from Utah to Nevada--the two driest states in the country--and includes the Mojave Desert in California. There is not enough rainfall in the Interior West to support farming, and high elevations mean a shorter growing season. Much of the land is alkaline, meaning that crops will not grow with any amount of water. There are not very many compelling reasons to start an agriculture industry in such a place. Yet the Bureau of Reclamation has built nearly 350 dams in the West, and the Army Corps of Engineers has built over 200 in the region as well. The total number of dams in the West totals an estimated 30,000 (though, to be fair, dams are not built solely for crop irrigation).
 
-![Hydrological map of the Great Basin](https://raw.githubusercontent.com/natehousley/NatesImages/main/Great_Basin_map.gif)
+| ![Hydrological map of the Great Basin](https://raw.githubusercontent.com/natehousley/NatesImages/main/Great_Basin_map.gif) |
+|:--:|
+| *Hydrological map of the Great Basin* |
 
 The reason for all this dam building is fairly simple. Farming, for centuries, has been very important as a way of turning land into property. And without irrigation, there is no farming in the West.
 
