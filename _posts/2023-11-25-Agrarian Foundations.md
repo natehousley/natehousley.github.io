@@ -46,3 +46,4 @@ The nineteenth century is still with us. The legal doctrine governing water in t
 <p>Robert Nichols, <i>Theft is Property!: Dispossession and Critical Theory</i> (Durham: Duke University Press, 2020).
 <p>David Rich Lewis, <i>Neither Wolf nor Dog: American Indians, Environment, & Agrarian Change</i>, (New York: Oxford, 1994).
 <p>Donald J. Pisani, <i>Water and American Government: The Reclamation Bureau, National Water Policy, and the West, 1902-1935</i>, (Berkeley: University of California Press, 2002). See also Pisani, "Irrigation, Water Rights, and the Betrayal of Indian Allotment."
+<p>I also recommend checking out <a href="https://www.russeldaniels.com/mother-wound">this beautiful aerial view</a> of fallowed farmland belonging to the Colorado River Indian Tribes, by Russell Albert Daniels.</p>
