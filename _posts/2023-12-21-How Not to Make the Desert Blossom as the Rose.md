@@ -47,9 +47,9 @@ The idea that Utah was a desert waste that has blossomed as the rose remains pow
 Mormons selected the Wasatch Front for its special and valuable characteristics, then set out to remake it. Regardless of intentions, their mode of living largely destroyed the land and waters that could support an abundance and diversity of game, fishes, and plant life. I decided to write this history by using the Miracle of the Gulls to draw out how Mormons viewed the alignment of Providence and civilization against diabolical nature. But I also felt it might open minds to alternate possibilities. There is no undoing of history, but we are capable of learning from it. Crickets did not come from heaven or hell. They came from the same place as seagulls, and the same place as bears and elk. And the same place as humans. 
 
 <u>References:</u>
-David B. Madsen and Brigham D. Madsen, "One Man's Meat is Another Man's Poison: A Revisionist View of the Seagull 'Miracle,'" <i>Nevada Historical Society Quarterly</i> 30 no 3 (Fall 1987): 165-181.
-Jared Farmer, <i>On Zion's Mount: Mormons, Indians, and the American Landscape</i> (Cambridge: Harvard University Press, 2008).
-David Rich Lewis, <i>Neither Wolf nor Dog: American Indians, Environment, and Agrarian Change</i> (New York: Oxford University Press, 1994).
-Sondra Jones, <i>Being and Becoming Ute: The Story of an American Indian People</i> (Salt Lake City: University of Utah Press, 2019).
-Victor Sorensen, <a href="https://issuu.com/utah10/docs/uhq_volume62_1994_number1/s/163784">"The Wasters and Destroyers: Community-Sponsored Predator Control in Early Utah Territory"</a>, <i>Utah Historical Quarterly</i> 62 no 1 (1994).
-Jennifer Susan Ott, "Clearing the Country: A History of the Hudson's Bay Company's Fur Desert Policy," Dissertation, University of Montana, 1997.
+<p>David B. Madsen and Brigham D. Madsen, "One Man's Meat is Another Man's Poison: A Revisionist View of the Seagull 'Miracle,'" <i>Nevada Historical Society Quarterly</i> 30 no 3 (Fall 1987): 165-181.
+<p>Jared Farmer, <i>On Zion's Mount: Mormons, Indians, and the American Landscape</i> (Cambridge: Harvard University Press, 2008).
+<p>David Rich Lewis, <i>Neither Wolf nor Dog: American Indians, Environment, and Agrarian Change</i> (New York: Oxford University Press, 1994).
+<p>Sondra Jones, <i>Being and Becoming Ute: The Story of an American Indian People</i> (Salt Lake City: University of Utah Press, 2019).
+<p>Victor Sorensen, <a href="https://issuu.com/utah10/docs/uhq_volume62_1994_number1/s/163784">"The Wasters and Destroyers: Community-Sponsored Predator Control in Early Utah Territory"</a>, <i>Utah Historical Quarterly</i> 62 no 1 (1994).
+<p>Jennifer Susan Ott, "Clearing the Country: A History of the Hudson's Bay Company's Fur Desert Policy," Dissertation, University of Montana, 1997.
