@@ -8,7 +8,7 @@ In the Salt Lake Valley in the spring of 1848, crickets and grasshoppers emerged
 
 Before long, birds flew in and gorged themselves on the locusts. The Mormons were particularly fascinated by the seagulls who lived along the shores of Great Salt Lake, that regurgitated the insects that they had just eaten, then ate more. The Mormon settlers interpreted the arrival of the birds and, in particular, the gulls as a godsend. In honor of the birds who had saved their crops, Utah would later name its state bird the California gull. A notable monument in downtown Salt Lake City pays tribute to the seagulls.
 
-![Seagull monument, Salt Lake City, wikimedia](https://raw.githubusercontent.com/natehousley/NatesImages/main/SeagullMonument.jpg)
+| ![Seagull monument, Salt Lake City, wikimedia](https://raw.githubusercontent.com/natehousley/NatesImages/main/SeagullMonument.jpg) |
 
 There was ample reason for the settlers to fear starvation. They were in an arid environment and inexperienced at irrigation. The first few years were lean, and diaries indicate that some were so hungry that they resorted to boiling rawhide for something to eat. But there was never any question that they would be feed themselves by farming. 
 
