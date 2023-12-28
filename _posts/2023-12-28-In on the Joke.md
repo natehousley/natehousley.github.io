@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "In on the Joke: <i>Barbie</i> and the State of the World at the End of 2023"
+title: "In on the Joke: Barbie and the State of the World at the End of 2023"
 tags: movies
 ---
 
