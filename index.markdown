@@ -26,4 +26,3 @@ layout: home
 </p><p><a href="https://www.utahhumanities.org/stories/items/show/377" target="_blank">Legalized Water Theft: The Daniels Diversion</a>
 </p><p><a href="https://www.utahhumanities.org/stories/items/show/452" target="_blank">Adapt or Die: Utah's Contested Water History</a>
 </p><hr>
-
