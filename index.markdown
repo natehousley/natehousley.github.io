@@ -21,7 +21,7 @@ layout: home
 </p><p><a href="https://exhibits.lib.utah.edu/s/mining-the-west/page/risk-and-reward" target="_blank">"Risk and Reward," part of Mining the West digital exhibit</a>
 </p><h4><b>Utah history:</b></h4>
 <p><a href="https://www.utahhumanities.org/images/centerheritage/docs/XR_Utah_Rural_Crossroads_essay_lr.pdf" target="_blank">Rural Utah at a Crossroads</a> (co-author)
-</p><p><a href="https://history.utah.gov/a-distance-reading-of-immigration-in-carbon-county/" target="_blank">A Distance Reading of Immigration in Carbon County"</a>
+</p><p><a href="https://history.utah.gov/a-distance-reading-of-immigration-in-carbon-county/" target="_blank">A Distance Reading of Immigration in Carbon County</a>
 </p><p><a href="https://www.intermountainhistories.org/items/show/373" target="_blank">Helper, Utah</a>
 </p><p><a href="https://www.utahhumanities.org/stories/items/show/377" target="_blank">Legalized Water Theft: The Daniels Diversion</a>
 </p><p><a href="https://www.utahhumanities.org/stories/items/show/452" target="_blank">Adapt or Die: Utah's Contested Water History</a>
