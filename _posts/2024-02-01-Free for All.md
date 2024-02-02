@@ -4,7 +4,7 @@ title: Free-for-all in the Uinta Basin
 tags: GSL water Utah
 ---
 
-In 1861, a Mormon scout reported that the Uinta Basin, east of the Wasatch, was "one vast contiguity of waste, and measurably valueless, except for nomadic purposes, hunting grounds for Indians and to hold the world together." Following the Walker Wars and the failure of the Indian Farms by the end of the 1850s, Mormon and US leaders began to look toward displacing Utes to a permanent reservation. Brigham Young successfully petitioned President Lincoln to establish a reservation in the Uinta Basin--picked out for Indians because Mormon settlers considered it worthless.
+In 1861, a Mormon scout reported that the Uinta Basin, east of the Wasatch, was "one vast contiguity of waste, and measurably valueless, except for nomadic purposes, hunting grounds for Indians and to hold the world together." Following the Walker War and the failure of the Indian Farms by the end of the 1850s, Mormon and US leaders began to look toward displacing Utes to a permanent reservation. Brigham Young successfully petitioned President Lincoln to establish a reservation in the Uinta Basin--picked out for Indians because Mormon settlers considered it worthless.
 
 In 1905, more than a thousand eager, would-be homesteaders gathered in Provo to draw lots for their chance to claim a piece of that "vast contiguity of waste." The allotment of the Uintah Ouray Reservation would result in less than a tenth of its original four million acres remaining in Indigenous hands, with large chunks withdrawn for a national forest and a reservoir. How did the Uinta Basin go from valueless to highly coveted in 40 years?
 
