@@ -50,7 +50,7 @@ The nineteenth century is still with us. The legal doctrine governing water in t
 
 **Read more:**  
 <p></p>
-[The 100th Meridian: Where "Free Land" Requires "Free Water" (1862 - 1923)](https://natehousley.com/2023/12/03/100th-Meridian.html)  
-[How (Not) to Make the Desert Blossom as the Rose (1847 - 1860)](https://natehousley.com/2023/12/21/How-Not-to-Make-the-Desert-Blossom-as-the-Rose.html)  
-[Boosters and Crusaders, Megacities and the Safety Valve: Iterations on the Oldest New Idea in the West (1878 - 2023)](https://natehousley.com/2024/01/10/Boosters-and-Crusaders.html)  
-[Free-for-all in the Uinta Basin (1861 - 1922)](https://natehousley.com/2024/02/01/Free-for-All.html)
+[The 100th Meridian: Where "Free Land" Requires "Free Water", 1862 - 1923](https://natehousley.com/2023/12/03/100th-Meridian.html)  
+[How (Not) to Make the Desert Blossom as the Rose, 1847 - 1860](https://natehousley.com/2023/12/21/How-Not-to-Make-the-Desert-Blossom-as-the-Rose.html)  
+[Boosters and Crusaders, Megacities and the Safety Valve: Iterations on the Oldest New Idea in the West, 1878 - 2023](https://natehousley.com/2024/01/10/Boosters-and-Crusaders.html)  
+[Free-for-all in the Uinta Basin, 1861 - 1922](https://natehousley.com/2024/02/01/Free-for-All.html)
