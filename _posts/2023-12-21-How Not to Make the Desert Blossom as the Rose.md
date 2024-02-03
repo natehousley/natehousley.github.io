@@ -55,3 +55,9 @@ Mormons selected the Wasatch Front for its special and valuable characteristics,
 <p>Sondra Jones, <i>Being and Becoming Ute: The Story of an American Indian People</i> (Salt Lake City: University of Utah Press, 2019).
 <p>Victor Sorensen, <a href="https://issuu.com/utah10/docs/uhq_volume62_1994_number1/s/163784">"The Wasters and Destroyers: Community-Sponsored Predator Control in Early Utah Territory"</a>, <i>Utah Historical Quarterly</i> 62 no 1 (1994).
 <p>Jennifer Susan Ott, "Clearing the Country: A History of the Hudson's Bay Company's Fur Desert Policy," Dissertation, University of Montana, 1997.
+
+**Read more:**
+<p>
+<p></p><a href="https://natehousley.com/2024/01/10/Boosters-and-Crusaders.html">Boosters and Crusaders, Megacities and the Safety Valve: Iterations on the Oldest New Idea in the West (1878 - 2023)</a>
+<p></p><a href="https://natehousley.com/2024/02/01/Free-for-All.html">Free-for-all in the Uinta Basin (1861 - 1922)</a>
+</p>
