@@ -59,5 +59,6 @@ Frederick Jackson Turner, ["The Significance of the Frontier in American History
 <p>
 <p><a href="https://natehousley.com/2023/11/25/Agrarian-Foundations.html">The Agrarian Foundations of the Western Water Crisis (1620 - 1902)</a>
 <p></p><a href="https://natehousley.com/2023/12/03/100th-Meridian.html">The 100th Meridian: Where "Free Land" Requires "Free Water" (1862 - 1923)</a>
+<p></p><a href="https://natehousley.com/2023/12/21/How-Not-to-Make-the-Desert-Blossom-as-the-Rose.html">How (Not) to Make the Desert Blossom as the Rose (1847 - 1860)</a>
 <p></p><a href="https://natehousley.com/2024/02/01/Free-for-All.html">Free-for-all in the Uinta Basin (1861 - 1922)</a>
 </p>
