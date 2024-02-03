@@ -55,3 +55,10 @@ Sondra Jones, *Being and Becoming Ute: The Story of an American Indian People* (
 Kathryn L. MacKay, “The Strawberry Valley Reclamation Project and the Opening of the Uintah Indian Reservation,” in John S. McCormick and John R. Sillito, ed., *A World We Thought We Knew: Readings in Utah History* (Salt Lake City: University of Utah Press, 1995).  
 "House Committee on Irrigation of Arid Lands, Relating to Projects for the Irrigation of Arid Lands Under the National Irrigation Act and the Work of the Division of Irrigation Investigations of the Agricultural Department in Connection With Irrigation of Arid Lands," 58th Cong., 2d sess., 1905, H. Hrg. 381, 17-18, cited in ["The Strawberry Valley Project: A History"](https://garnlebaron.wordpress.com/the-strawberry-valley-project-a-history/) by Garn LeBaron Jr.  
 David Rich Lewis, *Neither Wolf nor Dog: American Indians, Environment, and Agrarian Change* (New York: Oxford University Press, 1994).  
+
+**Read more:**
+<p></p>
+<p><a href="https://natehousley.com/2023/11/25/Agrarian-Foundations.html">The Agrarian Foundations of the Western Water Crisis (1620 - 1902)</a>
+<p></p><a href="https://natehousley.com/2023/12/03/100th-Meridian.html">The 100th Meridian: Where "Free Land" Requires "Free Water" (1862 - 1923)</a>
+<p></p><a href="https://natehousley.com/2023/12/21/How-Not-to-Make-the-Desert-Blossom-as-the-Rose.html">How (Not) to Make the Desert Blossom as the Rose (1847 - 1860)</a>
+<p><a href="https://natehousley.com/2024/01/10/Boosters-and-Crusaders.html">Boosters and Crusaders, Megacities and the Safety Valve: Iterations on the Oldest New Idea in the West (1891 - 2023)</a></p>
