@@ -54,3 +54,8 @@ Richard White, *"It's Your Misfortune and None of My Own": A New History of the 
 Richard Hofstadter, ["The Myth of the Happy Yeoman,"](https://www.americanheritage.com/myth-happy-yeoman) *American Heritage* 7 no 3 (April 1956), and *The Age of Reform: From Bryant to FDR* (New York: Knopf, 1955)     
 William Ellsworth Smythe, *The Conquest of Arid America* (New York: Harper, 1900)     
 Frederick Jackson Turner, ["The Significance of the Frontier in American History,"](https://www.historians.org/about-aha-and-membership/aha-history-and-archives/historical-archives/the-significance-of-the-frontier-in-american-history-(1893)) *Annual Report of the American Historical Association* (1893)
+
+**Read more:**
+<p>
+<p></p><a href="https://natehousley.com/2024/02/01/Free-for-All.html">Free-for-all in the Uinta Basin (1861 - 1922)</a>
+</p>
