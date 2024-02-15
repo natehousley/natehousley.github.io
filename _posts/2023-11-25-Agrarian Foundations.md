@@ -45,7 +45,7 @@ The nineteenth century is still with us. The legal doctrine governing water in t
 <u>References:</u>
 
 <p>Monique C. Shay, "Promises of a Viable Homeland, Reality of Selective Reclamation: A Study of the Relationship Between the <i>Winters</i> Doctrine and Federal Water Development in the Western United States," <i>Ecology Law Quarterly</i> 19 (1992): 547-590. See also Donald J. Pisani, "Irrigation, Water Rights, and the Betrayal of Indian Allotment," <i>Environmental Review</i> 10 no 3 (Autumn, 1986): 157-176; Andrew Curley, "Unsettling Indian Water Settlements: The Little Colorado River, the San Juan River, and Colonial Enclosures," <i>Antipode</i> 0 no 0 (2019): 1-19; Kaylee Ann Newell, "Federal Water Projects, Native Americans and Environmental Justice: The Bureau of Reclamation's History of Discrimination," <i>Environs</i> 20 no 2 (June 1997): 40-57; and Ann Caylor, "'A Promise Long Deferred': Federal Reclamation on the Colorado River Indian Reservation," <i>Pacific Historical Review</i> 69 no 2 (May 2000): 193-215.  
-Alan Taylor, *American Colonies: The Settling of North America* (New York: Viking, 2001).  
+<p>Alan Taylor, *American Colonies: The Settling of North America* (New York: Viking, 2001).  </p>
 <p>Robert Nichols, <i>Theft is Property!: Dispossession and Critical Theory</i> (Durham: Duke University Press, 2020).
 <p>David Rich Lewis, <i>Neither Wolf nor Dog: American Indians, Environment, & Agrarian Change</i>, (New York: Oxford, 1994).
 <p>Donald J. Pisani, <i>Water and American Government: The Reclamation Bureau, National Water Policy, and the West, 1902-1935</i>, (Berkeley: University of California Press, 2002). See also Pisani, "Irrigation, Water Rights, and the Betrayal of Indian Allotment."
