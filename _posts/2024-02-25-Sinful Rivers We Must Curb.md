@@ -31,9 +31,9 @@ The New Deal and the transition from the Reclamation Service to the Bureau of Re
 The conservation movement is largely viewed as an unalloyed positive, and few are aware of or consider the mixed legacy of Progressive conservationists. The Progressive view of water as a resource to be maximized is out of step with contemporary ecological wisdom, though the infrastructure of Western reclamation still owes much to this period. Perhaps more significantly, the conservation movement's erasure of Indigenous lifeways in its embrace of unpeopled wilderness as an ideal reinforced the false idea that humanity is separate from nature.  
 
 <u>References:</u>
-<p> Karl Jacoby, _Crimes Against Nature: Squatters, Poachers, Thieves, and the Hidden History of American Conservation_, (Berkeley: University of California, 2001).
-<p> William Cronon, "The Trouble with Wilderness; or, Getting Back to the Wrong Nature," in _Uncommon Ground: Rethinking the Human Place in Nature_ ed. William Cronon (New York: Norton, 1995).
-<p> Stephen J. Pyne, _Year of the Fires: The Story of the Great Fires of 1910_ (New York: Viking, 2001).  
+<p> Karl Jacoby, <i>Crimes Against Nature: Squatters, Poachers, Thieves, and the Hidden History of American Conservation</i>, (Berkeley: University of California, 2001).
+<p> William Cronon, "The Trouble with Wilderness; or, Getting Back to the Wrong Nature," in <i>Uncommon Ground: Rethinking the Human Place in Nature</i> ed. William Cronon (New York: Norton, 1995).
+<p> Stephen J. Pyne, <i>Year of the Fires: The Story of the Great Fires of 1910</i> (New York: Viking, 2001).  
 
 **Read more:**
 <p></p>
