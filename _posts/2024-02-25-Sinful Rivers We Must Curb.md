@@ -28,12 +28,12 @@ In 1916, Secretary of the Interior Franklin K. Lane said, "Every tree is a chall
 
 The New Deal and the transition from the Reclamation Service to the Bureau of Reclamation solidified the view of water as a resource to be used, as opposed to an element that exists in a particular ecological web. The West's rivers, together with hydropower dams, should power industry to make jobs for the people. The Grand Coulee Dam on the Columbia River was a massive public works project, for which the Bonneville Power Administration hired Woody Guthrie to write songs. In "Talking Columbia," Guthrie sings about "the river going to waste" while "Uncle Sam needs houses and stuff to eat / Uncle Sam needs water and power dams." Guthrie explicitly affirms the Jeffersonian ideal in "Roll on Columbia:" "Tom Jefferson's vision would not let him rest / An empire he saw in the Pacific Northwest." 
 
-The conservation movement is largely viewed as an unalloyed positive, and few are aware of or consider the mixed legacy of Progressive conservationists. The Progressive view of water as a resource to be maximized is out of step with contemporary ecological wisdom, though the infrastructure of Western reclamation still owes much to this period. Perhaps more significantly, the conservation movement's erasure of Indigenous lifeways in its embrace of unpeopled wilderness as an ideal reinforced the false idea that humanity is separate from nature.
+The conservation movement is largely viewed as an unalloyed positive, and few are aware of or consider the mixed legacy of Progressive conservationists. The Progressive view of water as a resource to be maximized is out of step with contemporary ecological wisdom, though the infrastructure of Western reclamation still owes much to this period. Perhaps more significantly, the conservation movement's erasure of Indigenous lifeways in its embrace of unpeopled wilderness as an ideal reinforced the false idea that humanity is separate from nature.  
 
 <u>References:</u>
-<p> Karl Jacoby, *Crimes Against Nature: Squatters, Poachers, Thieves, and the Hidden History of American Conservation*, (Berkeley: University of California, 2001).
-<p> William Cronon, "The Trouble with Wilderness; or, Getting Back to the Wrong Nature," in *Uncommon Ground: Rethinking the Human Place in Nature* ed. William Cronon (New York: Norton, 1995).
-<p> Stephen J. Pyne, *Year of the Fires: The Story of the Great Fires of 1910* (New York: Viking, 2001).  
+<p> Karl Jacoby, _Crimes Against Nature: Squatters, Poachers, Thieves, and the Hidden History of American Conservation_, (Berkeley: University of California, 2001).
+<p> William Cronon, "The Trouble with Wilderness; or, Getting Back to the Wrong Nature," in _Uncommon Ground: Rethinking the Human Place in Nature_ ed. William Cronon (New York: Norton, 1995).
+<p> Stephen J. Pyne, _Year of the Fires: The Story of the Great Fires of 1910_ (New York: Viking, 2001).  
 
 **Read more:**
 <p></p>
