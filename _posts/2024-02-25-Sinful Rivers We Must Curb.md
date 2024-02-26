@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The Sinful Rivers We Must Curb" -- Water and the Conservation Movement
+title: "The Sinful Rivers We Must Curb" \- Water and the Conservation Movement
 tags: GSL environment
 ---
 
