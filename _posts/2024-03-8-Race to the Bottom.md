@@ -14,8 +14,7 @@ The rapid growth of Los Angeles led to a much more significant event for the ent
 |:--:|
 | *1906 photo in what is now Beverly Hills* |
 | ![Wilshire Blvd, 1932](https://raw.githubusercontent.com/natehousley/NatesImages/main/Wilshire_Blvd_1932_Security_Pacific_National_Bank.jpg) |
-|:--:|
-| *1932 Wilshire Blvd, not far from the photo above |
+| *1932 Wilshire Blvd, not far from the photo above. Courtesy LA Public Library* |
 
 The origins of prior appropriation lie in the gold fields of the Sierra Nevadas in the late 1840s, though each Western state adopted its own version over the course of the nineteenth century. (California is unique in maintaining an awkward and complicated combination of prior appropriation and riparian rights.) Water in the West was in such short supply that diversions of rivers and streams could and did dry up entire waterways, so riparian rights were not optimal. Nor was it ideal for someone to be able to claim a portion of the water and squat on it, unused, while its value rose. To dissuade such speculation, prior appropriation includes the principle of beneficial use. This doctrine became instituted partly because the people wanting to use water, or any other resource, were the ones on the ground, and it was impractical or impossible at the time for some entity to actually enforce property rights from afar. But using Western resources also meant developing them, which was the goal of nineteenth-century land policy.
 
