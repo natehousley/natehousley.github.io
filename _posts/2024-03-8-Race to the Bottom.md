@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Race to the Bottom\: The Law of the River
+title: Race to the Bottom -- The Law of the River
 tags: GSL water reclamation ColoradoRiver
 ---
 
