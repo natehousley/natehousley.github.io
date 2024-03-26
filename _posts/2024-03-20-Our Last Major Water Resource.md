@@ -36,17 +36,18 @@ Political pressure mounted against the CUP through the 1980s. President Jimmy Ca
 |:--:|
 | *Portion of the Central Utah Project relevant to the Central Utah Project Completion Act of 1992. The Vernal and Jensen Units are left out here, but would be to the east. Much of the water infrastructure pictured -- Starvation, Strawberry, and Diamond Fork Systems -- funnels water to the Wasatch Front. Also note the relative size of the "Ute Indian Tribal Development."* |
 
-Most significantly, the slow progress of the Indian units caused the Ute Tribe to grow disenchanted. Considering the history of the Uintah Indian Irrigation Project and the Strawberry Valley Project, the willingness to even negotiate in the 1990s demonstrates considerable patience. Facing an uncertain future, the state of Utah assumed responsibility for the CUP with the Central Utah Project Completion Act of 1992, though the Department of the Interior was still responsible for funding. The Utes agreed to the new terms, but by 1998, the Tribe rescinded its support and settled for a cash payment in lieu of the promised water developments. The Tribe continues to pursue lawsuits over water. 
+Most significantly, the slow progress of the Indian units caused the Ute Tribe to grow disenchanted. Considering the history of the Uintah Indian Irrigation Project and the Strawberry Valley Project, the willingness to even negotiate in the 1990s demonstrates considerable patience. Facing an uncertain future, the state of Utah assumed responsibility for the CUP with the Central Utah Project Completion Act of 1992, though the Department of the Interior was still responsible for funding. The Utes agreed to the new terms, but by 1999, the Tribe rescinded its support. The cash settlement of $198 million that the Tribe received from the 1992 act was some comfort, though political scientist Dan McCool notes that the comparatively large settlement was "basically a liability payment" intended to shield the government from its failure to live up to the 1965 deferral agreement. And the money is not water. The Tribe continues to [pursue lawsuits](https://www.kuer.org/health-science-environment/2022-09-15/utes-hualapai-and-other-basin-state-tribes-still-fighting-for-their-share-of-colorado-river-water) over water. 
 
 The Central Utah Project developed a lot of irrigation water for eastern Utah in addition to the water piped into the Great Basin, much of it for municipal and industrial usage. The amount of water that flows to the Wasatch Front is not insignificant, but relatively speaking, it is not a large amount -- about a tenth of the annual flow of the Bear River or a third of the Jordan River. Conceptually, the project represents the awkwardness of drawing a state across two major watersheds. But it also represents another phase of the state's population and power center expanding its footprint into another valley, another chapter in the history of Great Salt Lake running through the Uinta Basin.
 
 References:
 
-Reed R. Murray and Ronald Johnston, "The History of the Central Utah Project: A Federal Perspective" (US Committee on Irrigation and Drainage, 2001).
-Donald Pisani, <i>Water and American Government: The Reclamation Bureau, National Water Policy, and the West, 1902-1935</i> (Berkeley: University of California Press, 2002).
-Marc Reisner, <i>Cadillac Desert: The American West and its Disappearing Water</i> (New York: Viking, 1986). 
-Craig Fuller, Robert E. Parson, and F. Ross Peterson, <i>Water Agriculture and Urban Growth : A History of the Central Utah Project: The CUP: The First Fifty Years</i> 2016. Salt Lake City Orem: Utah Historical Society ; Central Utah Water Conservancy District.
-Craig Fuller, <a href="https://www.uen.org/utah_history_encyclopedia/c/CENTRAL_UTAH_PROJECT.shtml">"The Central Utah Project,"</a> in <i>Utah History Encyclopedia</i>
+<p>Reed R. Murray and Ronald Johnston, "The History of the Central Utah Project: A Federal Perspective" (US Committee on Irrigation and Drainage, 2001).  
+<p>Donald Pisani, <i>Water and American Government: The Reclamation Bureau, National Water Policy, and the West, 1902-1935</i> (Berkeley: University of California Press, 2002).  
+<p>Marc Reisner, <i>Cadillac Desert: The American West and its Disappearing Water</i> (New York: Viking, 1986).   
+<p>Craig Fuller, Robert E. Parson, and F. Ross Peterson, <i>Water Agriculture and Urban Growth : A History of the Central Utah Project: The CUP: The First Fifty Years</i> 2016. Salt Lake City Orem: Utah Historical Society ; Central Utah Water Conservancy District.  
+<p>Craig Fuller, <a href="https://www.uen.org/utah_history_encyclopedia/c/CENTRAL_UTAH_PROJECT.shtml">"The Central Utah Project,"</a> in <i>Utah History Encyclopedia</i>  
+<p>Dan McCool, <i>Native Waters: Contemporary Indian Water Settlements and the Second Treaty Era</i>, (Tucson: University of Arizona, 2002).  
 
 **Read more:**
 <p></p>
@@ -56,3 +57,5 @@ Craig Fuller, <a href="https://www.uen.org/utah_history_encyclopedia/c/CENTRAL_U
 <p></p><a href="https://natehousley.com/2024/01/10/Boosters-and-Crusaders.html">Boosters and Crusaders, Megacities and the Safety Valve: Iterations on the Oldest New Idea in the West (1891 - 2023)</a>
 <p><a href="https://natehousley.com/2024/02/01/Free-for-All.html">Free-for-All in the Uinta Basin (1879 - 1920)</a>  
 <p><a href="https://natehousley.com/2024/02/25/Sinful-Rivers-We-Must-Curb.html">"The Sinful Rivers We Must Curb" (1891 - 1945)</a></p>
+
+\[Note: this post was edited 3/25/2024 to correct the year that the Ute Tribe finally rescinded support of the CUP from 1998 to 1999 and to clarify and add additional context for the CUPCA settlement.]
