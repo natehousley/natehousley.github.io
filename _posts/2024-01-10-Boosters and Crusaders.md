@@ -62,3 +62,7 @@ Frederick Jackson Turner, ["The Significance of the Frontier in American History
 <p></p><a href="https://natehousley.com/2023/12/21/How-Not-to-Make-the-Desert-Blossom-as-the-Rose.html">How (Not) to Make the Desert Blossom as the Rose (1847 - 1860)</a>
 <p></p><a href="https://natehousley.com/2024/02/01/Free-for-All.html">Free-for-all in the Uinta Basin (1861 - 1922)</a>
 </p>
+<p><a href="https://natehousley.com/2024/02/25/Sinful-Rivers-We-Must-Curb.html">"The Sinful Rivers We Must Curb" (1891 - 1945)</a></p>
+<p><a href="https://natehousley.com/2024/03/08/Race-to-the-Bottom.html">Race to the Bottom -- The Law of the River</a>
+<p><a href="https://natehousley.com/2024/03/20/Our-Last-Major-Water-Resource.html>Our Last Major Water Resource -- The Central Utah Project</a>
+<p><a href="https://natehousley.com/2024/03/25/Second-Treaty-Era.html>The Second Treaty Era</a>
