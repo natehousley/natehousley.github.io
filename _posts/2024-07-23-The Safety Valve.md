@@ -44,6 +44,8 @@ Here on the Wasatch Front, the Silicon Slopes initiative attracts tech companies
 
 The goal of controlling the natural flows of Western water and diverting them to where humans want and need them has long run parallel to the goal of developing labor markets. The tendency of humans to put down roots, to make friends and communities, to develop attachments to a place and to each other can be disrupted like wild rivers, and like water our labor can be stored and diverted and channeled to where it is desired. For those of us who work for a living, the opportunity to be mobile that the West provides can also come with an obligation to stay that way.
 
+(For an exploration of who stays and who leaves in the face of ecological hazards, specifically related to Great Salt Lake, check out the Stay Salty: Lakefacing Stories podcast [here](https://www.lakefacing.org/podcast/episode/4306629f/you-cant-erase-us-shoshone-and-ute-connections-to-great-salt-lake).)
+
 <u>References:</u>
 <p>Alan Taylor, <i>American Colonies</i> (New York: Viking, 2001)
 <p>Eric Foner, <i>Free Soil, Free Labor, Free Men: The Ideology of the Republican Party before the Civil War</i> (Oxford: Oxford University Press, 1995)
