@@ -36,7 +36,7 @@ To an extent, this runs counter to the whole purpose of irrigating the West. Wes
 
 The West, in this sense, is an idea as well as a geography. Elon Musk, dissatisfied with California's labor and environmental regulations, recently moved the headquarters of Tesla east to Texas, a more "business friendly" state. Yet even that was not enough, as Musk has attempted to  sidestep environmental regulations and city taxes by [withdrawing his factory](https://www.chron.com/news/science-environment/article/tesla-texas-gigafactory-environmental-regulation-19426500.php) from the city of Austin's purview. The Western conservatism that has taken root in Texas and the Mountain West believes in limited government---except for the government investment that manages the region's resources and infrastructure and helps attract businesses and residents. That is a topic for another essay. Suffice it to say that in-migration has caused the West to be the fastest growing region in the country since the mid-twentieth century. 
 
-| ![US Mean Center of Population over time](https://raw.githubusercontent.com/natehousley/NatesImages/1024px-US_Mean_Center_of_Population_1790-2020.jpg) |
+| ![US Mean Center of Population over time](https://raw.githubusercontent.com/natehousley/NatesImages/main/1024px-US_Mean_Center_of_Population_1790-2020.jpg) |
 |:--:|
 |*US Mean Center of Population over time*|
 
