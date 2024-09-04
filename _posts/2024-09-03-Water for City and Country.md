@@ -38,7 +38,7 @@ This [graph](https://www.inkstain.net/2022/08/how-we-got-into-this-mess-on-the-c
 
 As Schmidt, Fleck, and Kuhn write, "When the Colorado's flow was up, we used it all. When it was down, we drained the reservoirs... And during the few stretches of somewhat higher flows, we did not significantly refill the reservoirs." Instead of keeping the reservoirs full, we collectively put water out of our minds.
 
-References:
+**References:**
 <p>
 <p>G. Hely, R. W. Mower, and C. Albert Harr, “Water Resources of Salt Lake County, Utah” (US Geological Survey in cooperation with the Utah Department of Natural Resources Division of Water Rights, 1971).
 <p>Richard D. Lamm, "Colorado, Water, and Planning for the Future," <i>Denver Journal of International Law & Policy</i> 6 no 3 (1976).
@@ -46,3 +46,15 @@ References:
 <p>Richard L. Berkman and W. Kip Viscusi, <i>Damming the West: Ralph Nader’s Study Group Report on the Bureau of Reclamation</i> (New York: Grossman, 1973).
 <p>Franck Poupeau, Brian F. O’Neill, Joan Cortinas Muñoz, Murielle Coeurdray, and Eliza Benites-Gambirazio, <i>The Field of Water Policy: Power and Scarcity in the American Southwest</i> (New York: Routledge, 2020).
 <p>Andrew Ross, <i>Bird on Fire: Lessons from the World’s Least Sustainable City</i> (Oxford: Oxford University Press, 2012).
+<p></p>
+**Read more:**
+<p></p>
+<p><a href="https://natehousley.com/2023/11/25/Agrarian-Foundations.html">The Agrarian Foundations of the Western Water Crisis (1620 - 1902)</a>
+<p><a href="https://natehousley.com/2023/12/03/100th-Meridian.html">The 100th Meridian: Where "Free Land" Requires "Free Water" (1862 - 1923)</a>
+<p><a href="https://natehousley.com/2023/12/21/How-Not-to-Make-the-Desert-Blossom-as-the-Rose.html">How (Not) to Make the Desert Blossom as the Rose (1847 - 1860)</a>
+<p><a href="https://natehousley.com/2024/01/10/Boosters-and-Crusaders.html">Boosters and Crusaders, Megacities and the Safety Valve: Iterations on the Oldest New Idea in the West (1891 - 2023)</a>
+<p><a href="https://natehousley.com/2024/02/01/Free-for-All.html">Free-for-All in the Uinta Basin (1879 - 1920)</a>  
+<p><a href="https://natehousley.com/2024/02/25/Sinful-Rivers-We-Must-Curb.html">"The Sinful Rivers We Must Curb" (1891 - 1945)</a>
+<p><a href="https://natehousley.com/2024/03/08/Race-to-the-Bottom.html">Race to the Bottom -- The Law of the River</a>
+<p><a href="https://natehousley.com/2024/03/20/Our-Last-Major-Water-Resource.html>Our Last Major Water Resource -- The Central Utah Project</a>
+<p><a href="https://natehousley.com/2024/03/25/Second-Treaty-Era.html>The Second Treaty Era</a>
