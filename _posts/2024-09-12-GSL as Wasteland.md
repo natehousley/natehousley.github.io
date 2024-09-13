@@ -1,4 +1,8 @@
-Great Salt Lake as Wasteland
+---
+layout: post
+title: Great Salt Lake as Wasteland
+tags: GSL water environmentalism
+---
 
 Historian Jared Farmer, in *On Zion's Mount,* relates how Mormon settlers saw the Salt Lake Valley as an oasis only to be remembered later as a desert waste. The hot springs just north of Salt Lake City, whose waters fed a spa at one point, have been neglected since the 1970s as refineries took over the area. But these springs were valuable to Utes and Mormons alike in the 1840s, as the Mormons considered the warm, mineralized waters to be good for their health. 
 
