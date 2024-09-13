@@ -6,7 +6,7 @@ Recreation in Great Salt Lake itself has been more of a mixed bag. At least two 
 
 I like the multidimensional character of the lake. Its beauty is otherworldly. Terrence Malick's *Tree of Life* version of heaven was shot on the lake's salt flats. The North Arm's pink color comes from microbial extremophiles who live in the hypersaline water, a creation of a railroad causeway that split the lake in the 1950s. The shore is made of (salt) crystal. Visiting the lake when she's in the right mood is incomporable. And then there are her other moods. The negative view of the lake still prevails, though artists, photographers, and writers have been doing a lot of much needed work to reframe our perception of this natural wonder. While acknowledging that context, I like that the lake can be difficult, salty. It's not going to change who or what it is for us.
 
-|[Great Salt Lake, photo by author](https://github.com/natehousley/NatesImages/blob/main/GSL_pink.jpeg?raw=true)
+![Great Salt Lake, photo by author](https://github.com/natehousley/NatesImages/blob/main/GSL_pink.jpeg?raw=true)
 
 I believe getting to know the world around us, personally, physically, is an antidote to our problem. We're estranged from Great Salt Lake, like we are from all other bodies of water. Becoming acquainted with the lake can help us to create right relations, as Indigenous water protectors say. It is also important to get a big picture overview of things in the abstract, but relying only on that big picture can also lead to problems. 
 
