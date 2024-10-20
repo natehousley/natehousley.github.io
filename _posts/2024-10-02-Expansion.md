@@ -72,7 +72,7 @@ Additionally, in the grand sweep of Western water history from 1862 to present, 
 <p><a href="https://natehousley.com/2024/01/10/Boosters-and-Crusaders.html">Boosters and Crusaders, Megacities and the Safety Valve: Iterations on the Oldest New Idea in the West (1891 - 2023)</a></p>
 <p><a href="https://natehousley.com/2024/02/01/Free-for-All.html">Free-for-All in the Uinta Basin (1879 - 1920)</a>  
 <p><a href="https://natehousley.com/2024/03/08/Race-to-the-Bottom.html">Race to the Bottom -- The Law of the River</a>
-<p><a href="https://natehousley.com/2024/03/20/Our-Last-Major-Water-Resource.html>Our Last Major Water Resource -- The Central Utah Project</a>
+<p><a href="https://natehousley.com/2024/03/20/Our-Last-Major-Water-Resource.html">Our Last Major Water Resource -- The Central Utah Project</a>
 <p><a href="https://natehousley.com/2024/03/25/Second-Treaty-Era.html">The Second Treaty Era</a>
 <p><a href="https://natehousley.com/2024/07/23/The-Safety-Valve.html">The Safety Valve</a>
 <p><a href="https://natehousley.com/2024/08/05/The-Case-of-Uphill-Flowing-Water.html">The Case of Uphill Flowing Water</a>
