@@ -58,12 +58,20 @@ Mormons selected the Wasatch Front for its special and valuable characteristics,
 
 **Read more:**
 <p>
+<p><a href="https://natehousley.com/2024/10/20/No-Shortage-of-Water.html">There is No Shortage of Water</a>
+<p><a href="https://natehousley.com/2024/07/28/Short-History-of-Water-in-the-US-West.html">A Short History of Water in the US West</a>
 <p><a href="https://natehousley.com/2023/11/25/Agrarian-Foundations.html">The Agrarian Foundations of the Western Water Crisis (1620 - 1902)</a>
 <p></p><a href="https://natehousley.com/2023/12/03/100th-Meridian.html">The 100th Meridian: Where "Free Land" Requires "Free Water" (1862 - 1923)</a>
-<p></p><a href="https://natehousley.com/2024/01/10/Boosters-and-Crusaders.html">Boosters and Crusaders, Megacities and the Safety Valve: Iterations on the Oldest New Idea in the West (1878 - 2023)</a>
-<p></p><a href="https://natehousley.com/2024/02/01/Free-for-All.html">Free-for-all in the Uinta Basin (1861 - 1922)</a>
-</p>
-<p><a href="https://natehousley.com/2024/02/25/Sinful-Rivers-We-Must-Curb.html">"The Sinful Rivers We Must Curb" (1891 - 1945)</a></p>
+<p><a href="https://natehousley.com/2024/01/10/Boosters-and-Crusaders.html">Boosters and Crusaders, Megacities and the Safety Valve: Iterations on the Oldest New Idea in the West (1891 - 2023)</a></p>
+<p><a href="https://natehousley.com/2024/02/01/Free-for-All.html">Free-for-All in the Uinta Basin (1879 - 1920)</a>  
 <p><a href="https://natehousley.com/2024/03/08/Race-to-the-Bottom.html">Race to the Bottom -- The Law of the River</a>
-<p><a href="https://natehousley.com/2024/03/20/Our-Last-Major-Water-Resource.html>Our Last Major Water Resource -- The Central Utah Project</a>
-<p><a href="https://natehousley.com/2024/03/25/Second-Treaty-Era.html>The Second Treaty Era</a>
+<p><a href="https://natehousley.com/2024/02/25/Sinful-Rivers-We-Must-Curb.html">The Sinful Rivers We Must Curb</a>
+<p><a href="https://natehousley.com/2024/03/20/Our-Last-Major-Water-Resource.html">Our Last Major Water Resource -- The Central Utah Project</a>
+<p><a href="https://natehousley.com/2024/03/25/Second-Treaty-Era.html">The Second Treaty Era</a>
+<p><a href="https://natehousley.com/2024/07/23/The-Safety-Valve.html">The Safety Valve</a>
+<p><a href="https://natehousley.com/2024/08/05/The-Case-of-Uphill-Flowing-Water.html">The Case of Uphill Flowing Water</a>
+<p><a href="https://natehousley.com/2024/08/28/Whats-the-Deal-with-Alfalfa.html">What's the Deal with Alfalfa</a>
+<p><a href="https://natehousley.com/2024/09/03/Water-for-City-and-Country.html">Water for City and Country in the Late 20th Century</a>
+<p><a href="https://natehousley.com/2024/09/12/GSL-as-Wasteland.html">Great Salt Lake as Wasteland</a>
+<p><a href="https://natehousley.com/2024/09/22/Water-Marketing.html">What's the Deal with Water Marketing</a>
+<p><a href="https://natehousley.com/2024/10/02/Expansion.html">Expansion is at the Root of the Problem</a>
