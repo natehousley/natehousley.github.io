@@ -10,6 +10,7 @@ layout: home
 <p>Topic areas: Western history, labor, land and water, uranium
 </p><b>Water and Great Salt Lake:</b>
   </h4>
+<p><a href="https://weavingrivers.com/great-salt-lake" target="_blank">Great Salt Lake and the Uinta Basin: An Intertwined History</a>
 <p><a href="https://therevelator.org/free-water-colorado-river/" target="_blank">'Free Water' Was Never Free</a>
 </p><p><a href="https://www.sltrib.com/opinion/commentary/2022/08/04/nate-housley-we-have-put-great/" target="_blank">We have to put the Great Salt Lake first</a>
 </p><p>Presentations:
