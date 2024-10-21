@@ -3,6 +3,7 @@ layout: post
 title: Free-for-all in the Uinta Basin
 tags: GSL water Utah
 ---
+*Note: An extended version of this post appears at Weaving Rivers [here](https://weavingrivers.com/great-salt-lake).*
 
 In 1861, a Mormon scout reported that the Uinta Basin, east of the Wasatch, was "one vast contiguity of waste, and measurably valueless, except for nomadic purposes, hunting grounds for Indians and to hold the world together." Following the Walker War and the failure of the Indian Farms by the end of the 1850s, Mormon and US leaders began to look toward displacing Utes to a permanent reservation. Brigham Young successfully petitioned President Lincoln to establish a reservation in the Uinta Basin--picked out for Indians because Mormon settlers considered it worthless.
 
@@ -58,11 +59,22 @@ David Rich Lewis, *Neither Wolf nor Dog: American Indians, Environment, and Agra
 
 **Read more:**
 <p></p>
+<p><a href="https://natehousley.com/2024/10/20/No-Shortage-of-Water.html">There is No Shortage of Water</a>
+<p><a href="https://natehousley.com/2024/07/28/Short-History-of-Water-in-the-US-West.html">A Short History of Water in the US West</a>
 <p><a href="https://natehousley.com/2023/11/25/Agrarian-Foundations.html">The Agrarian Foundations of the Western Water Crisis (1620 - 1902)</a>
 <p></p><a href="https://natehousley.com/2023/12/03/100th-Meridian.html">The 100th Meridian: Where "Free Land" Requires "Free Water" (1862 - 1923)</a>
 <p></p><a href="https://natehousley.com/2023/12/21/How-Not-to-Make-the-Desert-Blossom-as-the-Rose.html">How (Not) to Make the Desert Blossom as the Rose (1847 - 1860)</a>
 <p><a href="https://natehousley.com/2024/01/10/Boosters-and-Crusaders.html">Boosters and Crusaders, Megacities and the Safety Valve: Iterations on the Oldest New Idea in the West (1891 - 2023)</a></p>
-<p><a href="https://natehousley.com/2024/02/25/Sinful-Rivers-We-Must-Curb.html">"The Sinful Rivers We Must Curb" (1891 - 1945)</a></p>
 <p><a href="https://natehousley.com/2024/03/08/Race-to-the-Bottom.html">Race to the Bottom -- The Law of the River</a>
+<p><a href="https://natehousley.com/2024/02/25/Sinful-Rivers-We-Must-Curb.html">The Sinful Rivers We Must Curb</a>
+<p><a href="https://natehousley.com/2024/03/20/Our-Last-Major-Water-Resource.html">Our Last Major Water Resource -- The Central Utah Project</a>
+<p><a href="https://natehousley.com/2024/03/25/Second-Treaty-Era.html">The Second Treaty Era</a>
+<p><a href="https://natehousley.com/2024/07/23/The-Safety-Valve.html">The Safety Valve</a>
+<p><a href="https://natehousley.com/2024/08/05/The-Case-of-Uphill-Flowing-Water.html">The Case of Uphill Flowing Water</a>
+<p><a href="https://natehousley.com/2024/08/28/Whats-the-Deal-with-Alfalfa.html">What's the Deal with Alfalfa</a>
+<p><a href="https://natehousley.com/2024/09/03/Water-for-City-and-Country.html">Water for City and Country in the Late 20th Century</a>
+<p><a href="https://natehousley.com/2024/09/12/GSL-as-Wasteland.html">Great Salt Lake as Wasteland</a>
+<p><a href="https://natehousley.com/2024/09/22/Water-Marketing.html">What's the Deal with Water Marketing</a>
+<p><a href="https://natehousley.com/2024/10/02/Expansion.html">Expansion is at the Root of the Problem</a>
 <p><a href="https://natehousley.com/2024/03/20/Our-Last-Major-Water-Resource.html>Our Last Major Water Resource -- The Central Utah Project</a>
 <p><a href="https://natehousley.com/2024/03/25/Second-Treaty-Era.html>The Second Treaty Era</a>
