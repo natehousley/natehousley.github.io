@@ -47,7 +47,7 @@ With the benefit of hindsight, we have a clear view of how much of early environ
 <p>
 <b>References:</b>
 <p>Arthur Hooker, ed. <i>Official Proceedings of the Nineteenth National Irrigation Congress</i> (Chicago: R. R. Donnelley & Sons, 1912)
-<p>W. A. Beard, ed. <i>Official Proceedings of the Fifteenth National Irrigation Congress<i> (Sacramento: News Publishing, 1907).
+<p>W. A. Beard, ed. <i>Official Proceedings of the Fifteenth National Irrigation Congress</i> (Sacramento: News Publishing, 1907).
 <p>Donald Pisani, <i>Water and American Government: The Reclamation Bureau, National Water Policy, and the West, 1902-1935</i> (Berkeley: University of California Press, 2002).
 <p>Donald Pisani, “Reclamation and Social Engineering in the Progressive Era,” <i>Agricultural History</i> 57 no 1 (1983): 46–63.
 <p>Dorceta Taylor, <i>The Rise of the American Conservation Movement: Power, Privilege, and Environmental Protection</i> (Durham: Duke University Press, 2016).
