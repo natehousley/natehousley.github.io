@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The Whites of this Country Are Against the Government"
+title: '"The Whites of this Country Are Against the Government"'
 tags: water west politics
 ---
 
