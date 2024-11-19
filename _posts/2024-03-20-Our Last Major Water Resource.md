@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Our Last Major Water Resource -- The Central Utah Project
+title: '"Our Last Major Water Resource" -- The Central Utah Project'
 tags: ColoradoRiver water reclamation
 ---
 
