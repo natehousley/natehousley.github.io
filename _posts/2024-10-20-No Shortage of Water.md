@@ -54,3 +54,6 @@ In conclusion, many observers have been trying to craft a solution by assuming t
 <p><a href="https://natehousley.com/2024/09/12/GSL-as-Wasteland.html">Great Salt Lake as Wasteland</a>
 <p><a href="https://natehousley.com/2024/09/22/Water-Marketing.html">What's the Deal with Water Marketing</a>
 <p><a href="https://natehousley.com/2024/10/02/Expansion.html">Expansion is at the Root of the Problem</a>
+<p><a href="https://natehousley.com/2024/10/24/Racism-in-Environmentalism.html">Racism in Environmentalism and Why it Matters</a></p>
+<p><a href="https://natehousley.com/2024/11/02/Prophetic-Perfect-Tense.html">Reclamation in the Prophetic Perfect Tense</a></p>
+<p><a href="https://natehousley.com/2024/11/18/Whites-of-this-Country.html">"The Whites of This Country Are Against the Government"</a></p>
