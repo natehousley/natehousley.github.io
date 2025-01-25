@@ -6,7 +6,7 @@ tags: water ColoradoRiver markets
 
 The cause of the West's water troubles has been definitively diagnosed, we are expected to believe. Inefficient water consumption has led to too much wasted water. The solution is simple, even if it is not exactly easy due to the various political snags that have grown up around the way things have always been done. We have to use water more efficiently. 
 
-This is a difficult idea to dislodge from people's minds, partly because it is inarguable that water here is wasted in one way or another. How does one defend flood irrigation on alfalfa fields or golf courses in the desert or extravagant water fountains at Las Vegas casinos? (The answer: very carefully.)
+This is a difficult idea to dislodge from people's minds, partly because it is inarguable that water here is wasted in one way or another. How does one defend flood irrigation on alfalfa fields or golf courses in the desert or extravagant water fountains at Las Vegas casinos? (The answer: very carefully. Public golf courses can represent valuable green space in urban settings, and the Bellagio's fountains use salty well water; Las Vegas overall is very strict about water conservation. I'll get to alfalfa below.)
 
 The goal of the Progressive Era conservation movement was to make efficient use of resources to bring about the greatest good for the greatest number of people. Scientific management was necessary in order to do that, they believed. The belief that experts should guide the allocation and maintenance of the country's resources formed the basis for that era's "gospel of efficiency," according to historian Samuel Hays in a classic work on the topic. 
 
