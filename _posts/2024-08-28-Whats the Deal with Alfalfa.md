@@ -63,7 +63,7 @@ References:
 
 <p>Frederick Jackson Turner, ["The Significance of the Frontier in American History,"](https://www.historians.org/about-aha-and-membership/aha-history-and-archives/historical-archives/the-significance-of-the-frontier-in-american-history-(1893)) *Annual Report of the American Historical Association* (1893)
 <p>Donald J. Pisani, <i>Water and American Government: The Reclamation Bureau, National Water Policy, and the West, 1902-1935</i>, (Berkeley: University of California Press, 2002)  
-<p>Patrick Wolfe, “Settler Colonialism and the Elimination of the Native.” *Journal of Genocide Research* 8 no 4 (2006): 387–409.
+<p>Patrick Wolfe, “Settler Colonialism and the Elimination of the Native.” <i>Journal of Genocide Research</i> 8 no 4 (2006): 387–409.
 <p>Charles S. Peterson and Brian Q. Cannon, *The Awkward State of Utah : Coming of Age in the Nation, 1896-1945* (Salt Lake City: Utah State Historical Society and The University of Utah Press, 2015).
 <p>Daniel L. Prager, Sarah Tulman, and Ron Durst, “Economic Returns to Farming for US Farm Households” (US Department of Agriculture Economic Research Service, August 2018).
 <p>Mark Fiege, <i>Irrigated Eden: The Making of an Agricultural Landscape in the American West</i> (Seattle: University of Washington, 1999).
