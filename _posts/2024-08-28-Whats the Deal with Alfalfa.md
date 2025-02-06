@@ -58,7 +58,12 @@ To be fair, the majority of irrigated acres are concentrated on the relatively f
 The point of all this is, yes, agriculture needs to do something differently. There's no serious debate suggesting otherwise. It consumes such a large chunk of water that there is just not enough for everyone to be able to do whatever they want. At the same time, it is a big mistake to fail to consider agriculture as part of a bigger picture, since no one sector exists independent of the others.
 <p></p>
 <p>(Note: This post was updated 9/9/24 to include a detail from <i>Irrigated Eden</i>.)</p>
+<p>
+<p>(Note: Updating again 2/6/2025. I wanted to include the following data in the image below to avoid presenting a misleading picture. I compared the rates in the increase of the average acre of farmland and buildings in Western states, finding that a number of them outpaced the national average. The value of farmland and buildings in Wyoming, Utah, and Idaho grew faster than California -- which is pretty remarkable considering the dominance of low value forage crops in these states, compared to the more valuable fruits and vegetables in California. But one expect that this would hold true for Nevada, New Mexico, and Arizona as well. Not sure what is happening with Arizona.)
 
+  ![Table of data comparing the value of farmland and buildings in Western states, average per acre and growth from 1992 to 2022](https://raw.githubusercontent.com/natehousley/NatesImages/refs/heads/main/Value%20of%20land%20and%20buildings%20per%20acre%20percentage%20increase.png)
+
+  
 References:
 
 <p>Frederick Jackson Turner, ["The Significance of the Frontier in American History,"](https://www.historians.org/about-aha-and-membership/aha-history-and-archives/historical-archives/the-significance-of-the-frontier-in-american-history-(1893)) *Annual Report of the American Historical Association* (1893)
