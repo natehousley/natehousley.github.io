@@ -71,16 +71,16 @@ This is not to suggest that there is no tension between individual appropriation
 
 <b><u>References:</b></u>
 
-Moses Lasky, "From Prior Appropriation to Economic Distribution of Water by the State—Via Irrigation Administration," 1 ROCKY MTN. L. REV. 161, 170 (1929). 
-Gordon Bakken, <i>The Development of Law on the Rocky Mountain Frontier: Civil Law and Society, 1850-1912</i> (Westport, CT: Greenwood Press, 1983)
-Robert G. Dunbar, <i>Forging New Rights in Western Waters</i> (Lincoln: University of Nebraska Press, 1983).
-Elwood Mead, “Government Aid and Direction in Land Settlement.” The American Economic Review 8, no. 1 (1918): 72–98.
-Janet Neuman, “Beneficial Use, Waste, and Forfeiture: The Inefficient Search for Efficiency in Western Water Use.” Environmental Law Review 28 (1998): 919–96.
-Donald J. Pisani, “Enterprise and Equity: A Critique of Western Water Law in the Nineteenth Century,” Western Historical Quarterly 18, no. 1 (1987): 15–37.
-Donald J. Pisani, 1992. <i>To Reclaim a Divided West : Water, Law, and Public Policy, 1848-1902</i> (Albuquerque: University of New Mexico Press, 1992).
-John Wesley Powell and Geographical and Geological Survey of the Rocky Mountain Region, <a href="https://www.gutenberg.org/ebooks/69995"><i>Report on the Lands of the Arid Region of the United States, with a More Detailed Account of the Lands of Utah<i></a> (Washington: GPO, 1879).
-Lawrence J. Macdonnell, "Prior Appropriation: A Reassessment," 18 U. Denv. Water L. Rev. 228 (2015).
-A. Dan Tarlock, <a href="https://digitalrepository.unm.edu/nrj/vol41/iss4/2">"The Future of Prior Appropriation in the New West,"</a> 41 Nat. Res. J. 769 (2001).
-A. Dan Tarlock, (2000) <a href="https://commons.und.edu/ndlr/vol76/iss4/5/?utm_source=commons.und.edu%2Fndlr%2Fvol76%2Fiss4%2F5&utm_medium=PDF&utm_campaign=PDFCoverPages">"Prior Appropriation: Rule, Principle, or Rhetoric,"</a> North Dakota Law Review: Vol. 76: No. 4 , Article 5. 
-Utah State Engineer <a href="https://waterrights.utah.gov/cgi-bin/libview.exe?Modinfo=Pubmain&Submod=Pubtype&Key=List+Publications&QSTRING=00000015">Biennial Reports</a>, number 1 through 13
-“Report of the Special Committee of the US Senate,” Special Committee for the Irrigation and Reclamation of Arid Lands, 51st Congress, 1st session, no. 928 (Washington DC: Government Printing Office, 1890).
+<p>Moses Lasky, "From Prior Appropriation to Economic Distribution of Water by the State—Via Irrigation Administration," 1 ROCKY MTN. L. REV. 161, 170 (1929). 
+<p>Gordon Bakken, <i>The Development of Law on the Rocky Mountain Frontier: Civil Law and Society, 1850-1912</i> (Westport, CT: Greenwood Press, 1983)
+<p>Robert G. Dunbar, <i>Forging New Rights in Western Waters</i> (Lincoln: University of Nebraska Press, 1983).
+<p>Elwood Mead, “Government Aid and Direction in Land Settlement.” The American Economic Review 8, no. 1 (1918): 72–98.
+<p>Janet Neuman, “Beneficial Use, Waste, and Forfeiture: The Inefficient Search for Efficiency in Western Water Use.” Environmental Law Review 28 (1998): 919–96.
+<p>Donald J. Pisani, “Enterprise and Equity: A Critique of Western Water Law in the Nineteenth Century,” Western Historical Quarterly 18, no. 1 (1987): 15–37.
+<p>Donald J. Pisani, 1992. <i>To Reclaim a Divided West : Water, Law, and Public Policy, 1848-1902</i> (Albuquerque: University of New Mexico Press, 1992).
+<p>John Wesley Powell and Geographical and Geological Survey of the Rocky Mountain Region, <a href="https://www.gutenberg.org/ebooks/69995"><i>Report on the Lands of the Arid Region of the United States, with a More Detailed Account of the Lands of Utah<i></a> (Washington: GPO, 1879).
+<p>Lawrence J. Macdonnell, "Prior Appropriation: A Reassessment," 18 U. Denv. Water L. Rev. 228 (2015).
+<p>A. Dan Tarlock, <a href="https://digitalrepository.unm.edu/nrj/vol41/iss4/2">"The Future of Prior Appropriation in the New West,"</a> 41 Nat. Res. J. 769 (2001).
+<p>A. Dan Tarlock, (2000) <a href="https://commons.und.edu/ndlr/vol76/iss4/5/?utm_source=commons.und.edu%2Fndlr%2Fvol76%2Fiss4%2F5&utm_medium=PDF&utm_campaign=PDFCoverPages">"Prior Appropriation: Rule, Principle, or Rhetoric,"</a> North Dakota Law Review: Vol. 76: No. 4 , Article 5. 
+<p>Utah State Engineer <a href="https://waterrights.utah.gov/cgi-bin/libview.exe?Modinfo=Pubmain&Submod=Pubtype&Key=List+Publications&QSTRING=00000015">Biennial Reports</a>, number 1 through 13
+<p>“Report of the Special Committee of the US Senate,” Special Committee for the Irrigation and Reclamation of Arid Lands, 51st Congress, 1st session, no. 928 (Washington DC: Government Printing Office, 1890).
