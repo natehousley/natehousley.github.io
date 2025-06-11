@@ -78,7 +78,7 @@ This is not to suggest that there is no tension between individual appropriation
 <p>Janet Neuman, “Beneficial Use, Waste, and Forfeiture: The Inefficient Search for Efficiency in Western Water Use.” Environmental Law Review 28 (1998): 919–96.
 <p>Donald J. Pisani, “Enterprise and Equity: A Critique of Western Water Law in the Nineteenth Century,” Western Historical Quarterly 18, no. 1 (1987): 15–37.
 <p>Donald J. Pisani, 1992. <i>To Reclaim a Divided West : Water, Law, and Public Policy, 1848-1902</i> (Albuquerque: University of New Mexico Press, 1992).
-<p>John Wesley Powell and Geographical and Geological Survey of the Rocky Mountain Region, <a href="https://www.gutenberg.org/ebooks/69995"><i>Report on the Lands of the Arid Region of the United States, with a More Detailed Account of the Lands of Utah<i></a> (Washington: GPO, 1879).
+<p>John Wesley Powell and Geographical and Geological Survey of the Rocky Mountain Region, <a href="https://www.gutenberg.org/ebooks/69995"><i>Report on the Lands of the Arid Region of the United States, with a More Detailed Account of the Lands of Utah</i>i></a> (Washington: GPO, 1879).
 <p>Lawrence J. Macdonnell, "Prior Appropriation: A Reassessment," 18 U. Denv. Water L. Rev. 228 (2015).
 <p>A. Dan Tarlock, <a href="https://digitalrepository.unm.edu/nrj/vol41/iss4/2">"The Future of Prior Appropriation in the New West,"</a> 41 Nat. Res. J. 769 (2001).
 <p>A. Dan Tarlock, (2000) <a href="https://commons.und.edu/ndlr/vol76/iss4/5/?utm_source=commons.und.edu%2Fndlr%2Fvol76%2Fiss4%2F5&utm_medium=PDF&utm_campaign=PDFCoverPages">"Prior Appropriation: Rule, Principle, or Rhetoric,"</a> North Dakota Law Review: Vol. 76: No. 4 , Article 5. 
