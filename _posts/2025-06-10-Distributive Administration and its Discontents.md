@@ -66,8 +66,8 @@ To summarize, here is a more concise analysis of the history of the development 
 
 This is not to suggest that there is no tension between individual appropriation and distributive administration. Nineteenth-century settlers operated in an environment in which genuine hopes for social engineering existed alongside cynical, speculative motives. For many, their own fortunes (still) being tied to Eastern capital and the desires of prospective homesteaders from the East represented a kind of ideological defeat. The Mormons are perhaps exemplary of this position. Wary of "outside" influence, Brigham Young cautioned against mining on the basis that it would distract too many able-bodied farmers and invite non-Mormon prospectors. Still, Young privately pursued gold prospecting and later came to embrace the possibilities of building railroads -- the "Golden Spike" placed at the completion of the intercontinental railroad at Promontory Point in Utah in 1869 represented the territory's anxieties about their theocracy being "opened" to outsiders. By the 1890s, the territory was "Americanizing" in preparation for statehood, something which would lead to the end of the church's cherished practice of plural marriage. There was simply no way to realize autarky within the territory while also attracting Mormon converts from around the world. Other idealists around the region, who founded egalitarian colonies, also saw their dreams lose to capital in a war of attrition. Those goals were founded on turning land into property, and in my view, there was simply no other outcome.  
 
-(Note: this post comes out of my own primary source research, based on the biennial reports of Utah's state engineer, beginning with the establishment of the office in 1897. I ended up drafting a journal article discussing Utah's transition to distributive administration but then revised it to focus more narrowly on the state's role in dispossessing Northern Utes through the allotment of the Uintah Ouray Reservation. So my notes here do not include specific references to the state engineer reports, unfortunately. I will revisit this post if I decide to draft and submit another paper on this topic, or, conversely, if I decide that I will definitely not do so, in which case I might just post a version of that early draft.)
-
+(Note: this post comes out of my own primary source research, based on the biennial reports of Utah's state engineer, beginning with the establishment of the office in 1897. I ended up drafting a journal article discussing Utah's transition to distributive administration but then revised it to focus more narrowly on the state's role in dispossessing Northern Utes through the allotment of the Uintah Ouray Reservation. So my notes here do not include specific references to the state engineer reports, unfortunately. I will revisit this post if I decide to draft and submit another paper on this topic, or, conversely, if I decide that I will definitely not do so, in which case I might just post a version of that early draft.)  
+<p></p>
 
 <b><u>References:</b></u>
 
@@ -84,3 +84,27 @@ This is not to suggest that there is no tension between individual appropriation
 <p>A. Dan Tarlock, (2000) <a href="https://commons.und.edu/ndlr/vol76/iss4/5/?utm_source=commons.und.edu%2Fndlr%2Fvol76%2Fiss4%2F5&utm_medium=PDF&utm_campaign=PDFCoverPages">"Prior Appropriation: Rule, Principle, or Rhetoric,"</a> North Dakota Law Review: Vol. 76: No. 4 , Article 5. 
 <p>Utah State Engineer <a href="https://waterrights.utah.gov/cgi-bin/libview.exe?Modinfo=Pubmain&Submod=Pubtype&Key=List+Publications&QSTRING=00000015">Biennial Reports</a>, number 1 through 13
 <p>“Report of the Special Committee of the US Senate,” Special Committee for the Irrigation and Reclamation of Arid Lands, 51st Congress, 1st session, no. 928 (Washington DC: Government Printing Office, 1890).
+<p>
+**Read more:**
+<p></p>
+  <p><a href="https://natehousley.com/2024/10/20/No-Shortage-of-Water.html">There is No Shortage of Water</a></p>
+<p><a href="https://natehousley.com/2024/07/28/Short-History-of-Water-in-the-US-West.html">A Short History of Water in the US West</a>
+<p><a href="https://natehousley.com/2023/11/25/Agrarian-Foundations.html">The Agrarian Foundations of the Western Water Crisis (1620 - 1902)</a>
+<p></p><a href="https://natehousley.com/2023/12/03/100th-Meridian.html">The 100th Meridian: Where "Free Land" Requires "Free Water" (1862 - 1923)</a>
+<p></p><a href="https://natehousley.com/2023/12/21/How-Not-to-Make-the-Desert-Blossom-as-the-Rose.html">How (Not) to Make the Desert Blossom as the Rose (1847 - 1860)</a>
+<p><a href="https://natehousley.com/2024/01/10/Boosters-and-Crusaders.html">Boosters and Crusaders, Megacities and the Safety Valve: Iterations on the Oldest New Idea in the West (1891 - 2023)</a></p>
+<p><a href="https://natehousley.com/2024/02/01/Free-for-All.html">Free-for-All in the Uinta Basin (1879 - 1920)</a>  
+<p><a href="https://natehousley.com/2024/03/08/Race-to-the-Bottom.html">Race to the Bottom -- The Law of the River</a>
+<p><a href="https://natehousley.com/2024/02/25/Sinful-Rivers-We-Must-Curb.html">The Sinful Rivers We Must Curb</a>
+<p><a href="https://natehousley.com/2024/03/20/Our-Last-Major-Water-Resource.html">Our Last Major Water Resource -- The Central Utah Project</a>
+<p><a href="https://natehousley.com/2024/03/25/Second-Treaty-Era.html">The Second Treaty Era</a>
+<p><a href="https://natehousley.com/2024/07/23/The-Safety-Valve.html">The Safety Valve</a>
+<p><a href="https://natehousley.com/2024/08/05/The-Case-of-Uphill-Flowing-Water.html">The Case of Uphill Flowing Water</a>
+<p><a href="https://natehousley.com/2024/08/28/Whats-the-Deal-with-Alfalfa.html">What's the Deal with Alfalfa</a>
+<p><a href="https://natehousley.com/2024/09/03/Water-for-City-and-Country.html">Water for City and Country in the Late 20th Century</a>
+<p><a href="https://natehousley.com/2024/09/12/GSL-as-Wasteland.html">Great Salt Lake as Wasteland</a>
+<p><a href="https://natehousley.com/2024/09/22/Water-Marketing.html">What's the Deal with Water Marketing</a>
+<p><a href="https://natehousley.com/2024/10/02/Expansion.html">Expansion is at the Root of the Problem</a>
+<p><a href="https://natehousley.com/2024/10/24/Racism-in-Environmentalism.html">Racism in Environmentalism and Why it Matters</a>
+<p><a href="https://natehousley.com/2024/11/02/Prophetic-Perfect-Tense.html">Reclamation in the Prophetic Perfect Tense</a>
+<p><a href="https://natehousley.com/2024/11/18/Whites-of-this-Country.html">'The Whites of this Country are Against the Government'</p>
