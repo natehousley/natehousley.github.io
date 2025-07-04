@@ -11,6 +11,7 @@ Nate was born and raised in South Carolina, though he has Mormon ancestry from U
 <hr>
 <h2>Education</h2>
   <h4>
+    <p>PhD candidate, University of Utah (current)
   <p>MA US History, University of Utah 2019</p>
   <p>BA English, Brigham Young University, Provo 2006</p>
   </h4>
