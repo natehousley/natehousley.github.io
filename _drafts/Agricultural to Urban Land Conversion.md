@@ -9,8 +9,20 @@ Those of us in the West are used to the phenomenon of suburban sprawl. This map 
 
 Another finding from this paper is that there has not been a linear progression from ag land to residential. Looking at non-irrigated vs. irrigated ag land shows that there is a significant amount of conversion, in both directions, between these categories. What is non-irrigated agricultural land? Some farmers practice dryland techniques, especially for wheat. Wheat only represents about 1.6% of cash receipts in Utah as of [2020](https://www.nass.usda.gov/Statistics_by_State/Utah/Publications/UT-AG-Profile-2022.pdf), compared to hay's 14.5%, but dryland wheat accounts for a significant percentage of that. But it is more likely that the non-irrigated ag land is pasture or that the farmer is letting that land lie fallow for whatever reason.
 
-Why does this matter? One of the implications of the study is that urbanization fragments irrigated agricultural land, leading to changes for irrigation infrastructure and food production. Urbanites frequently wonder why farmers don't simply grow higher value crops that use less water. One of the reasons is that farmers are adapting to rapid changes on multiple fronts, and changing one's crop production requires investment. 
+Why does this matter? One of the implications of the study is that urbanization fragments irrigated agricultural land, leading to changes for irrigation infrastructure and food production. Urbanites frequently wonder why farmers don't simply grow higher value crops that use less water. One of the reasons is that farmers are adapting to rapid changes on multiple fronts, and changing one's crop production requires investment. The climate is getting harder and drier, and good ag land is getting developed for housing as the West continues to grow. This plays into the reasons for farmers buying up parcels of non-irrigated land, or investing in pressurized irrigation systems to convert that land for hay production, or letting irrigated land go fallow. Furthermore, the market infrastructure for certain crops may create additional hurdles. The safest bet for many is to grow alfalfa or keep pasture to supply the state's top agricultural commodities: beef and dairy. 
 
-Utah has a really nice online tool found [here](https://sgid-utah.opendata.arcgis.com/). 
+With that context, let's look at some GIS. Utah has a really nice online tool found [here](https://sgid-utah.opendata.arcgis.com/). 
 
-https://www.sciencedirect.com/science/article/pii/S0143622818304211#bib4
+[Utah County images
+
+Utah County seems to hew most closely to the pattern wherein agricultural land gets converted to urban land. We see that pattern in the Sanpete Valley too.
+
+[Sanpete images]
+
+However, I was interested in what has been happening on the west side of Utah Lake, since there is urban development in Saratoga Springs that seems to bypass agricultural development.
+
+It is worth noting that the urban land category includes industrial uses. Some of the isolated plots of urban land have not been developed into housing and seem rather unlikely to be anytime soon.
+
+I was also curious about Washington County as the fastest growing county in the state. It also lies outside of the valleys that the authors above included in their study.
+
+We can see that urban land has been gradually filling in land in that wildland "other" category in St. George. While Washington County has some fairly substantial rivers, farmers have had difficulty in making the area into much of an agricultural powerhouse. Sandstone desert conditions are not great in the way of fertile soil, and the flooding of rivers poses a threat to cropland and irrigation infrastructure as much as drought does. But in recent decades, St. George has become an increasingly attractive destination for "snowbirds" and retirees. Between 2000 and 2020, the population of the metro area doubled, to 180,000 residents. 
