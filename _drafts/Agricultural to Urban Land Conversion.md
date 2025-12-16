@@ -62,7 +62,7 @@ I was also curious about Washington County as the fastest growing county in the 
 
 ![St. George metro area map 2013](https://raw.githubusercontent.com/natehousley/NatesImages/refs/heads/main/StG2013.png)
 
-![St. George metro area map 2022](https://raw.githubusercontent.com/natehousley/NatesImages/refs/heads/main/StG2002alt.png)
+![St. George metro area map 2022](https://raw.githubusercontent.com/natehousley/NatesImages/refs/heads/main/StG2022alt.png)
 
 We can see that urban land has been gradually filling in land in that wildland "other" category in St. George. While Washington County has some fairly substantial rivers, farmers have had difficulty in making the area into much of an agricultural powerhouse. Sandstone desert conditions are not great in the way of fertile soil, and the flooding of rivers poses a threat to cropland and irrigation infrastructure as much as drought does. But in recent decades, St. George has become an increasingly attractive destination for "snowbirds" and retirees. Between 2000 and 2020, the population of the metro area doubled, to 180,000 residents. 
 
