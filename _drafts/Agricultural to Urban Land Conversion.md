@@ -42,6 +42,28 @@ Bonus: Here is a subpar animated gif:
 
 However, I was interested in what has been happening on the west side of Utah Lake, since there is urban development in Saratoga Springs that seems to bypass agricultural development. (It is worth noting that the urban land category includes industrial uses. Some of the isolated plots of urban land have not been developed into housing and seem rather unlikely to be anytime soon.)
 
+![Saratoga Springs map 1988](https://raw.githubusercontent.com/natehousley/NatesImages/refs/heads/main/SSprings%201988%20alt.png)
+
+![Saratoga Springs map 1995](https://raw.githubusercontent.com/natehousley/NatesImages/refs/heads/main/SSprings%201995%20alt.png)
+
+![Saratoga Springs map 2002](https://raw.githubusercontent.com/natehousley/NatesImages/refs/heads/main/SSprings%202002%20alt.png)
+
+![Saratoga Springs map 2022](https://raw.githubusercontent.com/natehousley/NatesImages/refs/heads/main/SSprings%202022%20alt.png)
+
 I was also curious about Washington County as the fastest growing county in the state. It also lies outside of the valleys that the authors above included in their study.
 
+![St. George metro area map 1991](https://raw.githubusercontent.com/natehousley/NatesImages/refs/heads/main/StG1991.png)
+
+![St. George metro area map 1995](https://raw.githubusercontent.com/natehousley/NatesImages/refs/heads/main/StG1995.png)
+
+![St. George metro area map 2001](https://raw.githubusercontent.com/natehousley/NatesImages/refs/heads/main/StG2001.png)
+
+![St. George metro area map 2007](https://raw.githubusercontent.com/natehousley/NatesImages/refs/heads/main/StG2007.png)
+
+![St. George metro area map 2013](https://raw.githubusercontent.com/natehousley/NatesImages/refs/heads/main/StG2013.png)
+
+![St. George metro area map 2022](https://raw.githubusercontent.com/natehousley/NatesImages/refs/heads/main/StG2002alt.png)
+
 We can see that urban land has been gradually filling in land in that wildland "other" category in St. George. While Washington County has some fairly substantial rivers, farmers have had difficulty in making the area into much of an agricultural powerhouse. Sandstone desert conditions are not great in the way of fertile soil, and the flooding of rivers poses a threat to cropland and irrigation infrastructure as much as drought does. But in recent decades, St. George has become an increasingly attractive destination for "snowbirds" and retirees. Between 2000 and 2020, the population of the metro area doubled, to 180,000 residents. 
+
+
