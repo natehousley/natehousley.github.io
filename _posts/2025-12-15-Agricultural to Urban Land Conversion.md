@@ -26,7 +26,7 @@ With that context, let's look at some GIS. Utah has a really nice online tool fo
 Bonus: Here is a subpar animated gif:
 ![Utah County 1988 to 2022 animated gif](https://raw.githubusercontent.com/natehousley/NatesImages/refs/heads/main/Southern%20Utah%20County%20-%20Made%20with%20Clipchamp.gif)
 
-(Urban land is mustard yellow, in case that's unclear.) Note: I edited the colors on some of these screenshots to be consistent over time.) Utah County seems to hew most closely to the pattern wherein agricultural land gets converted to urban land. We see that pattern in the Sanpete Valley too.
+(Urban land is mustard yellow, in case that's unclear. Note: I edited the colors on some of these screenshots to be consistent over time.) Utah County seems to hew most closely to the pattern wherein agricultural land gets converted to urban land. We see that pattern in the Sanpete Valley too.
 
 ![Sanpete Valley map 1986](https://raw.githubusercontent.com/natehousley/NatesImages/refs/heads/main/Sanpete%201986.png)
 
