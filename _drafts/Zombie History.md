@@ -137,8 +137,8 @@ As Wendy Brown writes in *Undoing the Demos*:
 >The properly interpellated neoliberal citizen makes no claims for protection against capitalism’s suddenly burst bubbles, job-shedding recessions, credit crunches, and housing market collapses, its appetites for outsourcing or the discovery of pleasure and profit in betting against itself or betting on catastrophe. This citizen also accepts neoliberalism’s intensification of inequalities as basic to capitalism’s health — comprising the subpoverty wages of the many and the bloated compensation of bankers, CEOs, and even managers of public institutions and comprising as well reduced access of the poor and middle class to formerly public goods, now privatized. This citizen releases state, law, and economy from responsibility for and responsiveness to its own condition and predicaments and is ready when called to sacrifice to the cause of economic growth, competitive positioning and fiscal constraints.
 
 History, properly understood, helps us resist the call of neoliberal ideology. *This* is not all that politics are or have ever been.
-
-<p></p>
+<br>
+<br>
 <u>References:</u>
 
 <p>Aziz Rana, <i>The Constitutional Bind: How Americans Came to Idolize a Document that Fails Them</i> (Chicago: University of Chicago Press, 2024).
@@ -149,10 +149,10 @@ History, properly understood, helps us resist the call of neoliberal ideology. *
 <p></p>Achille Mbembe, <i>Necropolitics</i> (Durham: Duke University Press, 2019).
 <p></p>Wendy Brown, <i>Regulating Aversion: Tolerance in the Age of Identity and Empire</i> (Princeton: Princeton University Press, 2006).
 <p></p>Wendy Brown, <i>Undoing the Demos: Neoliberalism's Stealth Revolution</i> (Brooklyn: Zone Books, 2015).
-Mahmood Mamdani, <i>Neither Settler nor Native: The Making and Unmaking of Permanent Minorities</i> (Cambridge: Belknap Press, 2022).
+<p></p>Mahmood Mamdani, <i>Neither Settler nor Native: The Making and Unmaking of Permanent Minorities</i> (Cambridge: Belknap Press, 2022).
 <p></p>Daniel Immerwahr, <i>How to Hide an Empire: A History of the Greater United States</i> (New York: Farrar, Straus and Giroux, 2019).
 <p></p>Jean-Paul Sartre, <i>Anti-Semite and Jew: An Exploration of the Etiology of Hate</i> (New York: Schocken Books, 1995).
-Karl Marx, <i>Capital Volume 1</i> (Princeton: Princeton University Press, 2024).
-Melinda Cooper, <i>Counterrevolution: Extravagance and Austerity in Public Finance</i> (Brooklyn: Zone Books, 2024).
-Melinda Cooper, <i>Family Values: Between Neoliberalism and the New Social Conservatism</i> (Brooklyn: Zone Books, 2017).
-Celeste McNamara, "Priests Behaving Badly: The Problem of Scandal in the Early Modern Catholic Church," <i>The Journal of Modern History</i> 96 no 1 (March 2004).
+<p></p>Karl Marx, <i>Capital Volume 1</i> (Princeton: Princeton University Press, 2024).
+<p></p>Melinda Cooper, <i>Counterrevolution: Extravagance and Austerity in Public Finance</i> (Brooklyn: Zone Books, 2024).
+<p></p>Melinda Cooper, <i>Family Values: Between Neoliberalism and the New Social Conservatism</i> (Brooklyn: Zone Books, 2017).
+<p></p>Celeste McNamara, "Priests Behaving Badly: The Problem of Scandal in the Early Modern Catholic Church," <i>The Journal of Modern History</i> 96 no 1 (March 2004).
