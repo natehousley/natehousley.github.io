@@ -1,22 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://your-website-url.example.com/posts/welcome/index.html</loc>
-    <lastmod>2026-02-24T05:49:18.567Z</lastmod>
-  </url>
-  <url>
-    <loc>https://your-website-url.example.com/index.html</loc>
-    <lastmod>2026-02-24T05:49:18.566Z</lastmod>
-  </url>
-  <url>
-    <loc>https://your-website-url.example.com/about.html</loc>
-    <lastmod>2026-02-24T05:49:18.570Z</lastmod>
-  </url>
-  <url>
-    <loc>https://your-website-url.example.com/posts/post-with-code/index.html</loc>
-    <lastmod>2026-02-24T05:49:18.569Z</lastmod>
-  </url>
-  <url>
     <loc>https://natehousley.com/posts/Zombie History/index.html</loc>
     <lastmod>2026-02-25T06:04:26.581Z</lastmod>
   </url>
@@ -77,6 +61,22 @@
     <lastmod>2026-02-25T06:04:26.548Z</lastmod>
   </url>
   <url>
+    <loc>https://natehousley.com/index.html</loc>
+    <lastmod>2026-02-25T04:30:46.314Z</lastmod>
+  </url>
+  <url>
+    <loc>https://natehousley.com/archive/post-with-code/index.html</loc>
+    <lastmod>2026-02-24T05:49:18.569Z</lastmod>
+  </url>
+  <url>
+    <loc>https://natehousley.com/about.html</loc>
+    <lastmod>2026-02-25T04:38:23.280Z</lastmod>
+  </url>
+  <url>
+    <loc>https://natehousley.com/archive/welcome/index.html</loc>
+    <lastmod>2026-02-24T05:49:18.567Z</lastmod>
+  </url>
+  <url>
     <loc>https://natehousley.com/posts/100th Meridian/index.html</loc>
     <lastmod>2026-02-25T06:04:26.548Z</lastmod>
   </url>
@@ -135,9 +135,5 @@
   <url>
     <loc>https://natehousley.com/posts/Whites of this Country/index.html</loc>
     <lastmod>2026-02-25T06:04:26.580Z</lastmod>
-  </url>
-  <url>
-    <loc>https://natehousley.com/index.html</loc>
-    <lastmod>2026-02-25T04:30:46.314Z</lastmod>
   </url>
 </urlset>
