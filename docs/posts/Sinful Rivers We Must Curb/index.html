@@ -6,10 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Harlow Malloc">
-<meta name="dcterms.date" content="2026-02-23">
+<meta name="dcterms.date" content="2024-02-25">
 
-<title>Post With Code – newdir</title>
+<title>The Sinful Rivers We Must Curb – Nate Housley</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -39,10 +38,14 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-4d9afe2b8d18ee9fa5d0d57b5ed4214d.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-e31584831b205ffbb2d98406f31c2a5b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-58f56021f8238d385828291625d100a2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-f90e0aeb93d669b64547a3bec881436d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap-58f56021f8238d385828291625d100a2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -75,7 +78,169 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="../../styles.css">
 </head>
 
-<body class="nav-fixed fullcontent quarto-light">
+<body class="nav-fixed fullcontent quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
@@ -83,7 +248,7 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="../../index.html">
-    <span class="navbar-title">newdir</span>
+    <span class="navbar-title">Nate Housley</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -96,19 +261,10 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://github.com/"> <i class="bi bi-github" role="img">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
-  <li class="nav-item compact">
-    <a class="nav-link" href="https://twitter.com"> <i class="bi bi-twitter" role="img">
-</i> 
-<span class="menu-text"></span></a>
-  </li>  
 </ul>
           </div> <!-- /navcollapse -->
             <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
       </div> <!-- /container-fluid -->
     </nav>
@@ -117,29 +273,18 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Post With Code</h1>
-                                <div class="quarto-categories">
-                <div class="quarto-category">news</div>
-                <div class="quarto-category">code</div>
-                <div class="quarto-category">analysis</div>
-              </div>
-                  </div>
+      <h1 class="title">The Sinful Rivers We Must Curb</h1>
+                      </div>
   </div>
     
   
   <div class="quarto-title-meta">
 
-      <div>
-      <div class="quarto-title-meta-heading">Author</div>
-      <div class="quarto-title-meta-contents">
-               <p>Harlow Malloc </p>
-            </div>
-    </div>
       
       <div>
       <div class="quarto-title-meta-heading">Published</div>
       <div class="quarto-title-meta-contents">
-        <p class="date">February 23, 2026</p>
+        <p class="date">February 25, 2024</p>
       </div>
     </div>
     
@@ -158,13 +303,46 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>This is a post with executable code.</p>
+
+<p>During the middle of the nineteenth century, the meaning of “wilderness” began to change. For Anglo-american farmers, wilderness had long been something to clear away, synonymous with a “waste.” Transcendentalists and romantics began reconsidering this view of untouched nature, especially compared to the ills of industrializing cities. By the end of the century, wilderness was something to preserve.</p>
+<p>The desire to preserve wild nature helped give rise to the conservation movement of the late nineteenth century. At one point, Americans imagined the West to be inexhaustible. As it became apparent that the vast storehouse of the region was not only finite but being depleted much faster than imagined possible, federal land management policy began to shift towards conservation.</p>
+<p>Everyone is familiar with one of the most prominent legacies of Progressive Era conservation: the national parks. Wallace Stegner called national parks “the best idea we ever had. Absolutely American, absolutely democratic, the reflect us at our best rather than our worst.” Yellowstone became the first national park in 1872, making the forested expanse within its largely box-shaped boundaries off-limits for industry and settlement. After all, one of the guiding lights of conservation was the idea that humans were a destructive force on nature.</p>
+<p>George Perkins Marsh was the country’s first environmentalist and one of the conservation movement’s primary figures. In his 1864 book, <em>Man and Nature</em>, he wrote, “Man is everywhere a disturbing agent. Wherever he plants his foot, the harmonies of nature are turned to discords.” Yellowstone and Yosemite National Parks were a victory for supposedly having preserved an untouched wilderness that had not been despoiled by man’s discordant footsteps. As late as 2021, the <a href="https://www.smithsonianmag.com/history/lost-history-yellowstone-180976518/">brochure</a> at Yellowstone declares, “When you watch animals in Yellowstone, you glimpse the world as it was before humans.”</p>
+<p>The problem is that, in fact, the landscapes of Yellowstone and Yosemite had long been shaped by humans, from time immemorial. Rather than acknowledge the salutary effects of Indigenous land management practices, conservationists reinscribed the old narrative that Native Americans were themselves part of nature. The national parks are an example of “fortress conservation:” the preservation of natural spaces through maximalist restrictions on human activity. For a period beginning in 1886, the US Army held a military garrison in Yellowstone, partly to police the “poaching” of wildlife by a number of Indigenous nations who had traditionally used park lands.</p>
+<p>I love the national parks, but Stegner’s claim that they are “absolutely democratic” is patently false. The counterfeit democracy championed by Andrew Jackson–creating opportunities for poor white men by dispossessing Indigenous people–runs as deep in American society as the idea that the continent once consisted of untouched wilderness. Yet even on Jacksonian terms, the national parks and the conservation movement are funny examples of democracy. The parks and the forest reserves (beginning in 1891) criminalized long-standing Indigenous practices, even putting hunting and fishing rights guaranteed by treaty into a legal gray area. While much newer, settlers’ own folk practices for hunting, fishing, logging, etc also ran into conflict with conservation policies, for better or worse. Under Progressive conservation, folk practices gave way to rational, scientific management established by experts largely operating out of Washington, DC.</p>
+<p>I do not intend to romanticize these folk practices. The experience of settlers in the <a href="https://natehousley.com/2024/02/01/Free-for-All.html">Uinta Basin</a> may help demonstrate the dangers of allowing rural communities to develop and enforce their own guidelines for resource usage–specifically, that settlers seeking to develop as much land as quickly as possible gave little consideration for their Ute neighbors. Historian Karl Jacoby writes of these folk schemes, “They functioned best only under particular circumstances—when participants had inhabited an area for an extended period of time, had come to understand the local ecology, and expected to remain in the vicinity, which gave them an interest in stewarding local resources.” There is a strong case to be made for the kind of centralized, federal regulation that Progressive conservation put in place, though we are all already familiar with that case.</p>
+<p>My point is to draw attention to the ways that conservation rearranged social relationships, largely with the goal of putting natural resources into rational order to streamline their use. Rural people bore the brunt of conservationists’ attitudes about environmental degradation, something which becomes clearer when noting the urban, relatively affluent status of the conservationists. As historian William Cronon puts it, “The dream of an unworked natural landscape is very much the fantasy of people who have never themselves had to work the land to make a living.” Conservationists sometimes even lumped rural settlers and Native Americans together. Observers at Yellowstone complained about poaching committed by “Indians red and Indians white.”</p>
+<p>While conservationists continued a long tradition of overlooking Indigenous land stewardship, conservationists appear to have made Native Americans hypervisible as agents of environmental destruction. Forest managers at Yellowstone tended to characterize Natives as wanton and prolific hunters and frequent setters of wildfires. Fire was a particular sticking point for conservationists. Gifford Pinchot, the first director of the US Forest Service and a pillar of Progressive conservation, helped to fashion wildfire management into an elemental battle between humans and nature. In order to do so, he had to stamp out the practice of controlled burns, or light burning. John Wesley Powell in 1878 also recommended that wildfires could be controlled through the “removal of the Indian,” though he later became more open to light burning, presumably as a result of his dealings with Paiutes. Settlers often did use fire to clear forests, though many communities on the Great Plains and in the West learned the benefits of light burning from Native Americans. Periodic forest fires cleared out undergrowth and dead fall, supplied the forest floor with nutrient-rich ash, promoted the growth of pines with serotinous cones like the lodgepile pine, and even made the forests less susceptible to raging, destructive wildfires. Fire helped create the kind of forest floor in the Yosemite Valley that entranced John Muir, only to become overgrown and ungainly once conservationists ejected Indigenous people from the park. Contemporary forest managers have rediscovered the benefits of light burning, which is now standard practice. But at the time, conservationists derided it as “Paiute forestry.”</p>
+<p>The idiom of going to battle against wildfire is a point where the romantic ideal of George Perkins Marsh’s virgin wilderness is particularly visible in conservation discourse. And the characterization of rural people as wasters of pristine nature helped link this thread to conservation’s overarching purpose. Gifford Pinchot declared, “The first principle of conservation is development.” Conservation policy ultimately served to manage resources so they could be productively used. Western forests served as valuable rangelands for livestock, though by the end of the nineteenth century, overuse threatened to endanger the industry and the forests alike. In order to best use the West’s vast storehouse of timber, water, pasture, and so on, conservation sought to regulate it.</p>
+<p>In 1916, Secretary of the Interior Franklin K. Lane said, “Every tree is a challenge to us, and every pool of water and every foot of soil. The mountains are our enemies. We must pierce them and make them serve. The sinful rivers we must curb.” He was a proponent of damming the Tuolumne River in Yosemite, and on the opposite side was John Muir–founder of the Sierra Club and one of the foremost nineteenth-century environmentalists along with George Perkins Marsh. Lane’s position won. The conservation movement’s view of water was perhaps most in line with the goal to develop resources for public use. In this way, the Reclamation Service, which was a catalyst for the West’s overuse of water, was part of the Progressive conservation movement, something which might strike contemporary readers as ironic.</p>
+<p>The New Deal and the transition from the Reclamation Service to the Bureau of Reclamation solidified the view of water as a resource to be used, as opposed to an element that exists in a particular ecological web. The West’s rivers, together with hydropower dams, should power industry to make jobs for the people. The Grand Coulee Dam on the Columbia River was a massive public works project, for which the Bonneville Power Administration hired Woody Guthrie to write songs. In “Talking Columbia,” Guthrie sings about “the river going to waste” while “Uncle Sam needs houses and stuff to eat / Uncle Sam needs water and power dams.” Guthrie explicitly affirms the Jeffersonian ideal in “Roll on Columbia:” “Tom Jefferson’s vision would not let him rest / An empire he saw in the Pacific Northwest.”</p>
+<p>The conservation movement is largely viewed as an unalloyed positive, and few are aware of or consider the mixed legacy of Progressive conservationists. The Progressive view of water as a resource to be maximized is out of step with contemporary ecological wisdom, though the infrastructure of Western reclamation still owes much to this period. Perhaps more significantly, the conservation movement’s erasure of Indigenous lifeways in its embrace of unpeopled wilderness as an ideal reinforced the false idea that humanity is separate from nature.</p>
+<u>References:</u>
+<p>
+Karl Jacoby, <i>Crimes Against Nature: Squatters, Poachers, Thieves, and the Hidden History of American Conservation</i>, (Berkeley: University of California, 2001).
+</p><p>
+William Cronon, “The Trouble with Wilderness; or, Getting Back to the Wrong Nature,” in <i>Uncommon Ground: Rethinking the Human Place in Nature</i> ed.&nbsp;William Cronon (New York: Norton, 1995).
+</p><p>
+</p><p>Stephen J. Pyne, <i>Year of the Fires: The Story of the Great Fires of 1910</i> (New York: Viking, 2001).</p>
 
 
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
     const icon = "";
     const anchorJS = new window.AnchorJS();
     anchorJS.options = {
@@ -236,7 +414,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp("https:\/\/your-website-url\.example\.com");
+        var filterRegex = new RegExp("https:\/\/natehousley\.com");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }

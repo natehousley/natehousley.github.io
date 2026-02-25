@@ -1,0 +1,800 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.27">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="dcterms.date" content="2025-06-10">
+
+<title>Distributive Administration and its Discontents – Nate Housley</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<script src="../../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dark-4d9afe2b8d18ee9fa5d0d57b5ed4214d.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap-58f56021f8238d385828291625d100a2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-dark-f90e0aeb93d669b64547a3bec881436d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../../site_libs/bootstrap/bootstrap-58f56021f8238d385828291625d100a2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../../../styles.css">
+</head>
+
+<body class="nav-fixed fullcontent quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../../index.html">
+    <span class="navbar-title">Nate Housley</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../../about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Distributive Administration and its Discontents</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">water</div>
+                <div class="quarto-category">Progressives</div>
+                <div class="quarto-category">prior appropriation</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">June 10, 2025</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+
+
+<p>Legal scholar Moses Lasky, in 1929, declared that “prior-appropriation is the law nowhere in the West.” He was correct, but only if we define what he meant. The prior appropriation doctrine is in fact still the law governing water in the interior West, but it underwent a profound transformation around the turn of the twentieth century.</p>
+<p>Legal historian Gordon Bakken calls the nineteenth-century model “individual appropriation,” and this is what Lasky was referring to. Individual appropriation describes the (fabled) mode of making and respecting water claims that arose in the Sierra Nevadas during the gold rush: a miner would, more or less, simply divert water. Making a notice at the point of the diversion with a name, quantity of water, and date was about as much administration as that doctrine required, and before long the courts made records of these claims and protected them as a form of property.</p>
+<p>Many people with an interest in the topic continue to view the development of this mode of appropriation as a necessary result of the aridity of the region. That is, the prior appropriation doctrine (or individual appropriation, more precisely) replaced the riparian rights common in the East because riparian rights were untenable when irrigation or mining required substantial diversions that would diminish the source downstream. The influential <em>Coffin v. Left Hand Ditch Co.</em> ruling in Colorado in 1882 helped to cement this idea by putting forth some version of this reasoning. However, scholars have questioned this type of environmental determinism. To give one example of how social circumstances led to a departure from riparian rights, the Eastern model simply could not be established in early California gold fields because the miners were squatting and had no ability to own the land adjacent to waterways.</p>
+<p>Historian Donald Pisani also points out that what worked for mining needed to be adapted to a rather different agricultural economy; this was not as seamless as many think. Mining was temporary, while agriculture was more permanent. Farmers’ need to impound spring flow so that there was irrigation water later in the summer was more significant than miners, who could work around the availability of water.</p>
+<p>Individual appropriation, as it turns out, was very poorly suited for Western agriculture for a number of reasons, so much so that by the twentieth century, Western water rights needed a dramatic overhaul of established norms and culture. This actually represents a minor crisis that tends to go overlooked.</p>
+<p>As mentioned, courts (including federal courts as well as state and territorial courts, since the federal government during this period deferred to the West on water matters) were instrumental in protecting water rights as a form of property. One problem that arose was in the confusion over whether water rights or water itself was the property that a miner or irrigator claimed. Many felt, regardless of what the law had to say about it, that the water was theirs, not just the right to use it. This may seem like a bit of an academic distinction, but as water became increasingly scarce by the end of the nineteenth century, state and territorial officials became anxious about the prospect of allocating water toward purposes that would better encourage settlement and development. If the states claimed ownership of waters within their borders, with the water right conditional based on beneficial use, this task was conceptually easier.</p>
+<p>This anxiety stemmed partly from the fact that much water was “wasted,” or not used optimally for maximum agricultural production. Early irrigators assumed more water was better – some of this came from a belief that irrigation water fertilized the soil in some way. That assumption was changing by the end of the century, but flood irrigation practices used excessive amounts of water and were also bad for crops in some instances. Reformers, including agricultural experts and engineers, began trying to figure out the “duty” of water, or the amount needed to raise a crop without any surplus. This calculation depended on the crop as well as the type of soil, and so much expertise and research were brought to bear on the matter, partly in pursuit of the goal of freeing up additional water, though the motivation of optimizing agricultural exports was also a factor.</p>
+<p>The much larger source of “waste” was uncaptured springtime flows. Western rivers are fed by snowpack much more than direct precipitation, so rivers are the highest in the spring when most of the snow melts. Of course, that is when farmers need water the least. Impounding rivers with dams made the spring “floods” available during the dry months at the end of the summer. Early settler communities could make crude, earthen dams for this purpose. Later, mutual irrigation companies pooled resources to make larger, more sophisticated dams. But by about the 1890s, the irrigation movement was looking for more investment on a scale that would require government support, either with land grants for private companies (as with the 1894 Carey Act) or a federal reclamation agency (as was created with the 1902 Reclamation Act).</p>
+<p>The existing system of individual appropriation was unable to facilitate this level of investment. Even the relatively minor irrigation systems that functioned under it were showing signs of strain.</p>
+<p>Simply put, there was no good way of really knowing how much water anyone had claimed or how much was remaining. A “miner’s inch” was a common way of measuring streamflow, since it only required a flume or a weir to measure. However, an “inch” of water varied significantly depending on the pressure of the stream, which could only be estimated. When Western states began standardizing a miner’s inch, the equivalent measurement in cubic feet per-second (which reformers preferred) varied significantly across the region. With this imprecise measurement recorded at the point of diversion on a waterway, a miner or farmer had satisfied his requirement in making a claim on a water right (or water itself). Because water law in the West largely affirmed these customary practices, the courts were tasked with adjudicating claims and protecting settler property.</p>
+<p>But there was another problem: the dramatic variability of streamflows on the same waterway. The amount of water in a stream or river in May could be several times more than the amount in September. Year-to-year variability compounded the complexity: a river during a drought would provide much less water than during a period of wet years. Prior (individual) appropriation handled this variability by prioritizing the most senior claims, even if it meant that junior rights holders got nothing in a given year. (Utah was exceptional in the sense that there were different classes of priority, and individuals within those classes shared shortages.)</p>
+<p>Even in a perfect world, it’s not hard to see how the sum total of all these claims would hardly resemble real world water consumption. But of course, given the opportunity to embellish claims a bit, farmers took it. Some major rivers ended up with an absurd amount of claims on their water as a result. The natural flow of California’s San Joaquin River, for example, had reportedly been appropriated 172 times over, and the North Fork of the Snake River and the Salt River were over-appropriated by thirty-five and twenty-five times the amount of water the rivers held, respectively. Elwood Mead, Wyoming’s first state engineer, stated, “If the amount of water claimed had existed, Wyoming would have been a lake.”</p>
+<p>Many of those claims were fictive “paper claims,” and any real conflicts tended to be resolved among farmers who received water from the same canal company or mutual irrigation company, with a watermaster mediating if necessary. This worked, more or less, up until the point when new farmers arrived on the same stream. The earliest settlers tended to stake out lands in the river bottoms because it was easier to build canals there. This left land available upstream. Theoretically, farmers downstream would have the more senior claim, and any settlers upstream would be required to let water flow past them to satisfy the prior claims first. But it is easy to see how an upstream mutual irrigation company, with water reaching their infrastructure first, could deprive the senior appropriators of what they felt was theirs.</p>
+<p>It may be useful to back up a bit to illustrate the social dynamics at play here. A mutual irrigation company (distinct from a capitalistic canal company, though the day-to-day operation was similar) was a formation of farmers who pooled their resources to build and mantain canals (or ditches or laterals) with headgates and/or flumes and/or drainage, as the situation required. The company would appoint a watermaster who oversaw the distribution of water. Any bad actors would face the disapproval of their community, and could potentially be shut off from receiving water if they sufficiently provoked the others. Enforcement in this scenario could be as direct as a commandeering of the commonly held infrastructure that provided water to the dissident farmer, though in many cases, violent clashes erupted before this sort of intercession.</p>
+<p>This type of conflict resolution could not be applied to new farmers who formed their own community upstream of existing farmers. The only recourse would be to take the matter to court. This was an expensive proposition, since it required experts such as engineers to conduct proper surveys of streamflows as well as witnesses to corroborate water rights claims. Farmers avoided lawsuits unless the stakes were existential, and then the outcome depended to some degree on claims recorded with an imprecise process.</p>
+<p>This situation was discouraging to additional investment in the region, but it also represented a fatal flaw in the system of individual appropriation: it could not secure one’s own investment. If someone could simply settle upstream and divert water before it had a chance to flow to one’s farm, then what good was a legal apparatus relied upon to protect property?</p>
+<p>What I find interesting is that there was widespread resistance to overhauling this system, towards distributive administration, under which the state would allocate water through a state engineer office. Wyoming pioneered this type of system with a young Elwood Mead acting as the state’s first state engineer. It has been difficult for me to find well articulated opposition to the “Wyoming system,” but one complaint was that the state would become the authority over water allocation where, previously, that was a matter between oneself and the land. Realistically, a community was also involved, but that was a private matter. Mead <a href="https://drive.google.com/file/d/1topY6GzaY_i1Er5Dm0QiyTfOvAKznerB/view">reported</a> that, shortly after the 1888 legislation created a state board of control over water, people distributed “handbills” in Cheyenne with their complaints, asking “Do you want to live under a czar?”</p>
+<p>Another sticking point was that, in order for a state board of control to be established, states would need to claim ownership over their water. Utah explored the idea of writing the state engineer position into its constitution but faced criticism from some prominent voices over this matter. A. A. Mills, a professor at the Agricultural College of Utah, called it a “revolutionary step” and <a href="https://newspapers.lib.utah.edu/ark:/87278/s6qg03c1/12621304">said</a>, “…the control of the water right is confiscated. This is the intention of the article. It was proposed for this purpose, and is being pushed for this purpose.” Ultimately, the change wasn’t made in the constitution but with legislation the year after statehood. Even then, before 1903, the state engineer could only survey water sources and keep a record of claims. That is, he could not reject water right applications.</p>
+<p>Those concerned about property rights in the face of increased state administration did have some grounds for concern. Elwood Mead’s vision, which he was able to implement as an irrigation advisor in Australia beginning in 1907, involved government agents preparing homesteads for tenants with long-term leases. Mead promoted a similar plan in the US. Despite his advocacy for ownership of the land, Mead’s vision involved a kind of usufruct ownership in which the federal government would own farmland, which it would reassign as needed. It is hard to imagine a more dramatic departure from contemporaneous US resource policy in the West.</p>
+<p>So, for those concerned about property rights, reform and the status quo both posed a threat. The West had reached a fork in the road. One possible solution was to game the system while it lasted – to lay claim to as much water under individual appropriation as possible – and farmers certainly tried.</p>
+<p>Reforming water rights schemas and bringing them under state government’s distributive administration made plenty of sense, especially when it came to the enforcement of priority in watersheds. But for the main area of concern, which was stimulating further development, reformers oversold their prescription. To them, individual appropriation encouraged speculation and discouraged investment. Many in the irrigation movement in the 1890s focused on this problem while downplaying other aspects of Western agriculture that caused large scale irrigation works to fail. In other words, the sales pitch – and something that many reformers seemed to sincerely believe – was that reforming water rights would spur an explosion of growth.</p>
+<p>As with many predictions of mass migration into the arid West, this instance failed to materialize. Private enterprise in Western water ran up against a number of hurdles in the age of distributive administration. One problem came from raising funds, since investors were rightfully concerned about the difficulty of securing a return on investment when one’s debtors were farmers. Additional problems stemmed from relatively primitive surveying and engineering, leading sometimes to dam failures. And, the irrigation movement, made up as it was of boosters as well as sincere social reformers, also tended to overestimate the number of Easterners eager to grow wheat in the high desert.</p>
+<p>Speculation was a perennial fear in the nineteenth-century West, and reformers pointed to the speculation that came with individual appropration. In fact, a common contemporary explanation for the prior appropriation doctrine is that it was designed to prevent speculation by requiring the claimant to put water to beneficial use. In this argument, speculative hoarding prevented the development of the region’s water resources and was not tolerated on that basis. But in fact the law was and is rather lenient toward speculation. One very wide loophole led to a significant amount of “covert speculation,” in which a farmer simply used more water than necessary at the time to bank it for future use.</p>
+<p>One effect of water rights reform was a broader adoption of beneficial use provisions that specified the ability of the state to reassign water rights if the use was deemed excessive. The language accompanying beneficial use as the “basis, measure, and limit of a water right” intended to make water more broadly available for the purposes of state or regional growth. To this end, state engineers worked with agricultural experts to determine the duty of water for a particular crop so there was a frame of reference for determining excessive use. However, even under distributive administration, authorities are very slow to reassign water rights, and courts have found it difficult to prove beneficial use.</p>
+<p>Despite the talking points favored by reformers about speculation and efficiency, speculation continued apace under distributive administration. With the establishment of the Reclamation Service in 1902, speculators found ample opportunity to buy land surrounding proposed projects, complicating early reclamation projects and leading to plans being made in private. At one point, more than half of the land on these projects was owned for speculative purposes, according to historian Robert G. Dunbar.</p>
+<p>In the midst of the transition between individual appropriation and distributive administration, there were a variety of tweaks that those in the irrigation movement favored. John Wesley Powell, for example, voiced qualified support for prior appropriation so long as water rights remained tied to the land. If water rights could be separated, for Powell, “water will become a property independent of the land, and this property will be gradually absorbed by a few. Monopolies of water will be secured, and the whole agriculture of the country will be a tributary thereto…” This position did not find much favor, and the ability to separate water rights from land titles quickly became the norm. What is interesting is that one of the defining features of prior appropriation is the ability to remove water out of its natural channels, contrary to the riparian doctrine. This implies that water rights and land ownership are separate, or at least separable. But the debate on this point illustrates that the prior appropriation doctrine’s realization of the full implication was not inevitable. Naturally, Powell invokes the threat of monopoly to make his case, a rhetorical point favored by many regardless of which position they were defending.</p>
+<p>This is all to say that in reclamation debates, the dichotomy of speculative buyers versus “actual settlers” persisted from the controversies of the 1862 Homestead Act, and that this dichotomy was more useful as a political point than as descriptive categories of land purchasers. “Actual settlers” were in some sense speculators themselves, as the whole enterprise was very much geared toward driving up land values. In an 1890 congressional hearing on the state of Western reclamation, witnesses and committee members gauged the success of settlement efforts according to the costs per acre of land. One farmer from Tulare County, California stated, as a result of irrigation, “We began then to see the wilderness blossom as the rose. Men who had money came into the country and bought land.”</p>
+<p>What was the ultimate effect of the transition to distributive administration? It is impossible to really know what might have happened if the era of individual appropriation had continued on longer, but the difficulty of enforcing priority rights under that schema suggests that it would have faced some sort of intervention sooner or later. There was simply too much at stake, both for the farmers who needed to take on costly legal battles and for boosters.</p>
+<p>While distributive administration was a dramatic shift conceptually and legally, its interventions could be said to have maintained some of the spirit of individual appropration. Yes, state governments assumed the role of telling people what they could do with “their” water (which explicitly became the public’s water), but the reticence of states and courts to become overbearing in this matter show a kind of respect for the older tradition. As legal scholar Dan Tarlock puts it, prior appropriation (in the twentieth century after distributive administration had been established) is a “shadow doctrine;” he characterizes it as “often more rhetoric than rule.” Tarlock writes, with qualified approval, “Priority’s modern significance lies in the threat of enforcement rather than the actual enforcement because it encourages water users to cooperate either to reduce the risk of enfocement to as close to zero as possible or to share more equitably the burdens of shortages… Thus, it is not surprising that states have taken extraordinary steps to ensure that the rule is never applied in practice and that federal, state, and local water distribution agencies find alternative ways to ameliorate the rule when droughts occur.”</p>
+<p>This state of affairs has come about due to large reservoirs that provide “carry-over” storage (from year to year), according to Tarlock: “The federal reclamation program’s construction of carry-over storage reservoirs to back-stop water rights, not the law, is the main reason that water rights are relatively firm regardless of the water year.” In other words, the ability to keep everyone (more or less) happy in drought years comes from having substantial reservoir storage. Remember, though, that this was not the primary selling point of building large, expensive dams, and (in my reading) this is not a consequence that reformers expected.</p>
+<p>The ability to build large, expensive dams, did depend on reforming water rights, however. When private efforts to build them stalled in the 1890s (notably with the failure of 1894’s Carey Act), the federal government became the last hope for the irrigation movement, which had been divided on the issue on federal reclamation. Federal officials told Utah’s state government that a system of distributive administration was a prerequisite for being considered for federal reclamation projects.</p>
+<p>To me, this indicates that there is another way of seeing this transition, in contrast to the narrative used by reformers. Under individual appropriation, decisions about water were backstopped by law but largely determined by the communities held together by canals and ditches (and, again, the law followed the lead of these communities). On smaller streams, this meant that a watershed more or less defined the governance of that community, not wholly unlike John Wesley Powell’s recommendation that political boundaries be drawn according to hydrology. (But in that model, we still run into the problem of farmers creating their own community upstream of the more senior irrigators.) However, it was impractical and even counterproductive, when it came to regional investment and planning, to allow each watershed to develop their own water rights schemas. State and territorial governments were subordinated to local governance. Distributive administration, in this sense, was the promotion of state governments over local communities. This provided the advantage of allowing the states to resolve conflicts between communities organized locally around their respective ditches, and it allowed states and the federal government to coordinate on the matter of interstate streams (this is the type of problem that Powell anticipated with his watershed map, but this problem, in my opinion, was not very significant until the late twentieth century, when the Colorado River Compact and the construction of the Colorado River System infrastructure incentivized states to compete with each other for finite river water).</p>
+<p>To summarize, here is a more concise analysis of the history of the development of prior appropriation water rights. In the beginning, basic individual appropriation in gold fields came out of a need to diminish streams at the points of diversion (contrary to riparian doctrine) as well as to develop property rights in places where land titles were not possible. The broader settlement of the West happened according to this type of system, of squatting and preemption, and became a foundational principle of property and development. However, as this schema became applied to agriculture in subsequent decades, fatal flaws appeared which threatened further agrarian (ie permanent) settlement. (Mormon agrarian settlement in Utah Territory was an outlier.) Ironically, despite the profound emphasis on property rights, individual appropriation was ill equipped to protect against those rights being infringed on by more recent settlers. (I find it interesting that this highlights the gap between a theoretical, paper property right and the physical impossibility of owning water itself, since one can only ever “own” access to a channel, not any specific drops or molecules of water. Common law going back to ancient Rome reasons that water rights can only ever be usufruct because of its fluid nature.) Over the objections of those concerned about property, state and federal governance of water rights actually helped to preserve those property rights, partially by law and partially by constructing enough storage to carry junior rights holders through drought, thus precluding the need for senior rights holders to seek litigious or political interventions. In this telling, the foundational preemptory rights of settlers have been preserved, as well as they could be, through state and federal efforts. Those efforts also facilitated the growth of the region, something that also satisfied senior rights holders by causing the value of their property to rise.</p>
+<p>This is not to suggest that there is no tension between individual appropriation and distributive administration. Nineteenth-century settlers operated in an environment in which genuine hopes for social engineering existed alongside cynical, speculative motives. For many, their own fortunes (still) being tied to Eastern capital and the desires of prospective homesteaders from the East represented a kind of ideological defeat. The Mormons are perhaps exemplary of this position. Wary of “outside” influence, Brigham Young cautioned against mining on the basis that it would distract too many able-bodied farmers and invite non-Mormon prospectors. Still, Young privately pursued gold prospecting and later came to embrace the possibilities of building railroads – the “Golden Spike” placed at the completion of the intercontinental railroad at Promontory Point in Utah in 1869 represented the territory’s anxieties about their theocracy being “opened” to outsiders. By the 1890s, the territory was “Americanizing” in preparation for statehood, something which would lead to the end of the church’s cherished practice of plural marriage. There was simply no way to realize autarky within the territory while also attracting Mormon converts from around the world. Other idealists around the region, who founded egalitarian colonies, also saw their dreams lose to capital in a war of attrition. Those goals were founded on turning land into property, and in my view, there was simply no other outcome.</p>
+(Note: this post comes out of my own primary source research, based on the biennial reports of Utah’s state engineer, beginning with the establishment of the office in 1897. I ended up drafting a journal article discussing Utah’s transition to distributive administration but then revised it to focus more narrowly on the state’s role in dispossessing Northern Utes through the allotment of the Uintah Ouray Reservation. So my notes here do not include specific references to the state engineer reports, unfortunately. I will revisit this post if I decide to draft and submit another paper on this topic, or, conversely, if I decide that I will definitely not do so, in which case I might just post a version of that early draft.)<br>
+
+<p>
+</p>
+<p><b><u>References:</u></b></p>
+<p>
+Moses Lasky, “From Prior Appropriation to Economic Distribution of Water by the State—Via Irrigation Administration,” 1 ROCKY MTN. L. REV. 161, 170 (1929).
+</p><p>
+Gordon Bakken, <i>The Development of Law on the Rocky Mountain Frontier: Civil Law and Society, 1850-1912</i> (Westport, CT: Greenwood Press, 1983)
+</p><p>
+Robert G. Dunbar, <i>Forging New Rights in Western Waters</i> (Lincoln: University of Nebraska Press, 1983).
+</p><p>
+Elwood Mead, “Government Aid and Direction in Land Settlement.” The American Economic Review 8, no. 1 (1918): 72–98.
+</p><p>
+Janet Neuman, “Beneficial Use, Waste, and Forfeiture: The Inefficient Search for Efficiency in Western Water Use.” Environmental Law Review 28 (1998): 919–96.
+</p><p>
+Donald J. Pisani, “Enterprise and Equity: A Critique of Western Water Law in the Nineteenth Century,” Western Historical Quarterly 18, no. 1 (1987): 15–37.
+</p><p>
+Donald J. Pisani, 1992. <i>To Reclaim a Divided West : Water, Law, and Public Policy, 1848-1902</i> (Albuquerque: University of New Mexico Press, 1992).
+</p><p>
+John Wesley Powell and Geographical and Geological Survey of the Rocky Mountain Region, <a href="https://www.gutenberg.org/ebooks/69995"><i>Report on the Lands of the Arid Region of the United States, with a More Detailed Account of the Lands of Utah</i>i&gt;</a> (Washington: GPO, 1879).
+</p><p>
+Lawrence J. Macdonnell, “Prior Appropriation: A Reassessment,” 18 U. Denv. Water L. Rev.&nbsp;228 (2015).
+</p><p>
+A. Dan Tarlock, <a href="https://digitalrepository.unm.edu/nrj/vol41/iss4/2">“The Future of Prior Appropriation in the New West,”</a> 41 Nat. Res. J. 769 (2001).
+</p><p>
+A. Dan Tarlock, (2000) <a href="https://commons.und.edu/ndlr/vol76/iss4/5/?utm_source=commons.und.edu%2Fndlr%2Fvol76%2Fiss4%2F5&amp;utm_medium=PDF&amp;utm_campaign=PDFCoverPages">“Prior Appropriation: Rule, Principle, or Rhetoric,”</a> North Dakota Law Review: Vol. 76: No.&nbsp;4 , Article 5.
+</p><p>
+Utah State Engineer <a href="https://waterrights.utah.gov/cgi-bin/libview.exe?Modinfo=Pubmain&amp;Submod=Pubtype&amp;Key=List+Publications&amp;QSTRING=00000015">Biennial Reports</a>, number 1 through 13
+</p><p>
+“Report of the Special Committee of the US Senate,” Special Committee for the Irrigation and Reclamation of Arid Lands, 51st Congress, 1st session, no. 928 (Washington DC: Government Printing Office, 1890).
+</p><p>
+</p>
+
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/natehousley\.com");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>

@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.27">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="dcterms.date" content="2024-08-28">
+
+<title>What’s the Deal with Alfalfa – Nate Housley</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<script src="../../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dark-4d9afe2b8d18ee9fa5d0d57b5ed4214d.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap-58f56021f8238d385828291625d100a2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-dark-f90e0aeb93d669b64547a3bec881436d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../../site_libs/bootstrap/bootstrap-58f56021f8238d385828291625d100a2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../../../styles.css">
+</head>
+
+<body class="nav-fixed fullcontent quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../../index.html">
+    <span class="navbar-title">Nate Housley</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../../about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">What’s the Deal with Alfalfa</h1>
+                                <div class="quarto-categories">
+                <div class="quarto-category">water</div>
+                <div class="quarto-category">agriculture</div>
+                <div class="quarto-category">GSL</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">August 28, 2024</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+
+
+<p>Agriculture in the Mountain West, like anywhere else, is complex. There are inefficiencies and peculiarities, as many are now aware. About 80% of <a href="https://storymaps.com/stories/3b122d92a55843b39ad6d7e018399a11">Utah’s water</a> goes toward agriculture, and that sector generates about 2% of the state’s GDP. The dominant crops are some form of animal feed: alfalfa hay, pasture, or other hay. Many respond to this information by thinking that the agriculture industry doesn’t make sense here – that there must be some sort of conspiracy or corruption that has led to this outcome. I think this suspicion lends to the outsized influence of the idea that “water flows uphill toward money” (more <a href="https://natehousley.com/2024/08/05/The-Case-of-Uphill-Flowing-Water.html">here</a>).</p>
+<p>But if we change our framing and view Western agriculture as an adaptation to land, rather than being oriented primarily around maximizing profit, some of the peculiarities start to make more sense. In other words, we should realize that the farms are not there to grow alfalfa; they grow alfalfa because they’re there. Hopefully that makes more sense by the end of this post.</p>
+<p>For historians, farming is not simply an enterprise for making money by growing crops. Farming is loaded with cultural and political significance. I examine some of the ideological reasons for bringing smallholder agriculture to the West in a post <a href="https://natehousley.com/2023/11/25/Agrarian-Foundations.html">here</a>. But, of course, there are also material motivations, both for policymakers and farmers themselves. A large part of the calculus, then and now, concerned land values.</p>
+<p>Land speculators and Western politicians largely drove land policy from the 1860s on, in the form of “boosterism.” It is true that the Homestead Act depended politically on the Jeffersonian idea that a citizenry of yeoman farmers would sustain the American democratic experiment, but plenty of non-farmers realized that there was a dollar to be made from it too. Ideally, everyone would profit, or so they argued.</p>
+<p>In <em>A New Guide to the West</em>, John Mason Peck wrote in the 1830s about successive waves of settlement on the frontier. Frederick Jackson Turner, in his seminal 1893 essay “The Significance of the Frontier in American History” affirmed this view and quoted Peck at length:</p>
+<blockquote class="blockquote">
+<p>Generally, in all the western settlements, three classes, like the waves of the ocean, have rolled one after the other. First comes the pioneer… He builds his cabin… and occupies till the range is somewhat subdued… till the neighbors crowd around… and he lacks elbow room. The preemption law enables him to dispose of his cabin and cornfield to the next class of emigrants… The next class of emigrants purchase the lands, add field to field, clear out the roads… Another wave rolls on. The men of capital and enterprise come. The settler is ready to sell out and take the advantage of the rise in property, push farther into the interior and become, himself, a man of capital and enterprise in turn. The small village rises to a spacious town or city… Thus wave after wave is rolling westward; the real Eldorado is still farther on.</p>
+</blockquote>
+<p>Peck and Turner depict a rather frictionless process of developing land, so it’s important to note that this is a bit idealized. But this is the type of thinking that informed land policy, and it helps orient us to the way people were thinking in the last decades of the 1800s leading to the Reclamation Act. Turner quoted this section at a time when the frontier had recently “closed.” But as Donald Worster notes in <em>Rivers of Empire</em>, the line of settlement briefly retreated ten years later in the 1900 census. Prior to federal reclamation, Turner and others expressed concern that westward expansion, due to the extreme aridity of the far West, was faltering. For land speculators, this meant that the cheap land they had invested in might not rise in value. Mining was profitable, but those operations were boom-and-bust, leaving ghost towns behind rather than thriving cities. Cattle and sheep ranching had become established by about the 1880s, but that industry required vast stretches of land and resulted in isolated homes. Speculators needed farmers to develop a permanent population in little villages that could grow to become cities–driving up land values and creating markets–and to do that farmers needed irrigation.</p>
+<p>In addition to Jeffersonian (or Weberian) ideas about the work of farming leading to a virtuous citizenry, agriculture was an eminently practical means of reproducing a settler capitalist society. People need shelter; we also need food, something to do, and company. A homestead came with a job and something to eat, even if there wasn’t much variety in one’s diet. The homesteading family unit provided domestic labor. It was a spartan existence, but an efficient one (assuming as well that a particular society has an army of poor people that can fail en masse without upsetting anyone else too much). Historian and anthropologist Patrick Wolfe speaks to the importance of agriculture in the <a href="https://www.tandfonline.com/doi/full/10.1080/14623520601056240">settler colonial project</a>: “Agriculture is a rational means/end calculus that is geared to vouchsafing its own reproduction, generating capital that projects into a future where it repeats itself… Agriculture supports a larger population than non-sedentary modes of production… The inequities, contradictions and pogroms of metropolitan society ensure a recurrent supply of fresh immigrants–especially… from among the landless. In this way, individual motivations dovetail with the global market’s imperative for expansion. Through its ceaseless expansion, agriculture (including, for this purpose, commercial pastoralism) progressively eats into Indigenous territory, a primitive accumulation that turns native flora and fauna into a dwindling resource and curtails the reproduction of Indigenous modes of production.”</p>
+<p>The irrigation movement of the 1890s represented a new wave of boosterism, and the interests of those involved were more material than cultural, despite their rhetoric. Speculators and professionals wanted federal investment in irrigation for their own sake, but their arguments tended to stress the importance of national and civilizational achievement and the development of democracy on the frontier (similar to Frederick Jackson Turner’s argument). <em>The Conquest of Arid America,</em> by one of the founders of the irrigation movement, William Ellsworth Smythe, took that sort of rhetoric to new heights and talked about irrigation as a kind of religious rite.</p>
+<p>Farmers and farming were central to this vision, though the actual people doing the hard work were largely instrumentalized. Farmers were willing to accept that fact so long as they got something out of it. The Massachusetts-born Smythe had little in common with, say, a Wyoming farmer, but the promise of new water was not something that Western homesteaders were going to turn down. Exploitation of land in the West happened in the shape of an inverted pyramid. Individuals with wealth stood to benefit the most, but the pyramid extended nearly to the bottom of white society. As long as one was able to move up to the next tier, it hardly mattered how much the people at the top were making off with. While the <a href="https://natehousley.com/2024/07/23/The-Safety-Valve.html">safety valve</a> effect did not materialize like many had hoped in the early 1800s, there is something to be said for how many people imagined the frontier of the 1830s and ’40s through the lens of class conflict and how little of that framework followed homesteaders into the Mountain West. (“Homesteaders” and “Mountain West” are the key words here. Class war here took place in mining towns, and Populist farmers kept up the struggle in the Midwest and the South in the late 1800s.)</p>
+<p>Among the motivations for promoting federal reclamation, the production of food and fiber was very low on the list. In fact, the US Department of Agriculture and the National Grange, a farming organization, opposed the 1902 Reclamation Act out of fear that promoting agriculture in the West would result in <em>too much</em> food, thus driving down food prices. It was a valid concern, as plummeting wheat prices contributed to a severe depression in the 1890s.</p>
+<p>Here in Utah, Anglo agriculture began as a means of communal self-sufficiency. In order to keep themselves isolated, the Mormons of Utah Territory tried to avoid integration into national markets. This lasted until about the 1890s, when the territory began to “americanize” on its way to statehood in 1896. Farmers who grew staple crops began growing cash crops for export. Locals are likely familiar with the summer festivals that celebrate the harvests of fruits (cash crops) that farmers still grow: Strawberry Days in Pleasant Grove, Peach Days in Brigham City, and so on. (Don’t sleep on Onion Days in Payson.) Sugar beets were an important cash crop for Utah farmers in the early twentieth century until overseas cane sugar undercut their prices; part of Utah Senator Reed Smoot’s motivation behind the infamous Smoot Hawley Tariff Act was to help protect the state’s sugar beet farmers.</p>
+<p>But the real money has been in livestock for at least a century. “Since 1929, about three-quarters of Utah farms’ cash receipts, on average, have come from animals and animal products, primarily cattle and hogs,” according to <a href="https://d36oiwf74r1rap.cloudfront.net/wp-content/uploads/CUP-PolicyBrief-Nov2020.pdf">economists</a> at the University of Utah. Feed crops to support livestock overtook vegetables, melons, fruits, and nuts as a share of the state’s crops in the 1960s and now represent nearly all of the state’s cash receipts from crops.</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://raw.githubusercontent.com/natehousley/NatesImages/main/Share%20of%20cashcrop.png" class="img-fluid figure-img"></p>
+<figcaption>Share of total cash crop receipts in Utah, 1929-2018</figcaption>
+</figure>
+</div>
+<p>Again, the rise of Western cattle has much to do with land. The West, with its sparse natural forage, is not an efficient place to raise cattle, in terms of yield. But it is efficient in the sense that there are large stretches of public land where animals eat free (minus nominal public lands grazing fees, after the passage of the Taylor Grazing Act in 1934) for about eight months out of the year. (Even for privately owned farmland, <a href="https://www.usda.gov/media/blog/2019/11/01/agriculture-beehive-state">almost 80%</a> is pasture or rangeland, underscoring the importance of cattle to Utah agriculture.) Consider this: the LDS Church owns a herd of <a href="https://web.archive.org/web/20081017081353/http://www.deseretranchflorida.com/r-cattle.html">44,000 beef cattle</a>. Despite the church’s longstanding ties to the Mountain West, it grazes those cattle on pasture that it owns in central Florida. If one is trying to maximize investment, it makes better sense to graze cattle on abundant grasses in the Southeast. Despite the importance of ranching to the region, Utah has <a href="https://wisevoter.com/state-rankings/beef-production-by-state/">fewer heads of cattle</a> than North Carolina and about half as many as Alabama.</p>
+<p>Similarly, alfalfa is important as an adaptation to place, not necessarily as an efficient crop. Wisconsin in some years is the <a href="https://www.alfalfa.org/pdf/AlfalfaValue.pdf">most valuable producer of alfalfa</a> in the country, though it is only the state’s third most important crop. Alfalfa is the top crop for Utah, as it is for Idaho, Wyoming, Arizona, New Mexico, Nevada, and Oregon. But aside from Idaho and Arizona, these states are not even in the top 10 most valuable alfalfa producers.</p>
+<p>The economics get even more interesting when looking beyond the aggregate. Drilling down reveals that most Utah farmers are not making that much money from their crops. The USDA classifies a “small farm” as one that makes less than $350,000 per year. About 90% of <a href="https://www.nass.usda.gov/Statistics_by_State/Utah/Publications/UT-AG-Profile-2022.pdf">Utah farms</a> fall into this category; only 3% of Utah farms make $500,000 or more. Furthermore, about two thirds of all Utah farmers report a <a href="https://www.nass.usda.gov/Publications/AgCensus/2022/Full_Report/Volume_1,_Chapter_1_State_Level/Utah/st49_1_005_006.pdf">net loss</a>, and the average loss per farm is about $20,000. Considering that more than half of farmers make less than $5,000 in cash receipts, it is easy to imagine that capital investments or other expenses push farmers into the red, even accounting for the probability that farmers are overreporting losses. To be clear, this is an overall picture of all farms, though again hay and pasture are the top crops in Utah.</p>
+<p>About forty percent of Utah’s farms grow alfalfa hay, though small farms are more likely than big farms to grow it. On farms smaller than 15 acres, about 47% grow alfalfa. For all farms smaller than 50 acres, about 73% of farms grow alfalfa, according to the <a href="https://www.nass.usda.gov/Publications/AgCensus/2022/Full_Report/Volume_1,_Chapter_1_State_Level/Utah/st49_1_035_035.pdf">2022 USDA agricultural census</a>. Utah also has a rather high number of farmers whose <a href="https://farmflavor.com/utah/utah-crops-livestock/top-utah-agriculture-facts-from-the-2024-census-of-agriculture/#:~:text=Though%20the%20state%20counts%20more,their%20primary%20occupation%20was%20farming.">primary occupation</a> is something other than farming: 69% as of 2022. For lifestyle or retirement farms, alfalfa appears to be the crop of choice.</p>
+<p>Alfalfa requires quite a bit of water, which makes it less than ideal for arid and semi-arid environments. But it has <a href="https://waterdesk.org/2022/12/one-crop-uses-more-than-half-of-utahs-water-heres-why/">other qualities</a> that make it well-suited for the region. It’s a perennial and a legume, meaning that it doesn’t require yearly replanting and fixes nitrogen in the soil. Farmers can take up to ten cuttings in a good year, which means that if there isn’t enough water, there is little loss in taking fewer cuttings. The relatively low value of alfalfa also contributes to the low opportunity cost in letting it dry up. Water writer John Fleck argues that this flexibility actually contributes to the resiliency of water systems in the West.</p>
+<p>If we consider the shift in agriculture towards alfalfa in the broader context of urbanization in Utah, things look a bit different. For starters, the best farmland in the state – the lands that early settlers gravitated to – is now under concrete. Northern Utah County, for example, used to be full of orchards. As the county urbanized, catalyzed during World War II with the building of Geneva Steel to supply the military, orchards became subdivisions. There are still “secondary water” systems in Salt Lake City, not far from downtown, where irrigation water runs through the gutters of residential neighborhoods. Think of John Mason Peck’s successive waves of settlement: farming villages became cities, and farmers pushed out into more marginal land where valuable fruits and vegetables could not grow as well. Additionally, building reservoirs inundates farmland along fertile river bottoms; storage is created at the expense of fertile soil.</p>
+<p>Then there is the matter of finances. Again, most Utah farms report a net loss–the ratio here is pretty high relative to the rest of the country, but the majority of farms nationwide report net losses. The USDA has found that accounting for the increased value of a national average of farmland helps make up for the difference: “Farmland values, which have increased nearly every year between 1990 and 2015, … boosted the returns for these farm operators by an average of $22,661 across all farms in 2015.” In Utah, the average value of land and buildings on farms per acre tripled between 1992 and 2022, from $1,117 to $3,405 (adjusted to 2024 dollars. See 2022 Utah Ag Census).</p>
+<p>Now we have a better picture of the median farmer in Utah: someone who works a piece of land they own, without hired help, growing alfalfa for sale or for their own animals, and going to work somewhere off the farm. The median farm size in Utah is 22 acres. The alfalfa itself is not worth all that much to them, but in order to retain their water rights, they need to grow something (use it or lose it). Losing the water rights associated with their property would reduce its value. Alfalfa is a good fit for a lazy farmer, and there are plenty of cows to feed. In fact, seen this way, the <em>inefficiency</em> of cattle is an advantage here. Beef cattle eat up to 25 pounds of feed for every edible pound they produce, a much greater ratio than other livestock. There is little chance of an oversupply of alfalfa from lifestyle farms for this reason, since it would take so much to drive costs down–and in that case beef and dairy operations might just buy more heads of cattle, stabilizing the cost of hay. In fact, increasing dairy production was the response of Idaho farmers to a glut of cash crop alfalfa in the late 1910s, according to Mark Fiege in <em>Irrigated Eden</em>. In 1924, an irrigation official reported, “We have got ten thousand cows and are milking our way out” of the surplus. Fiege writes, “From 1919 to 1924, milk production expanded by 50 percent.”</p>
+<p>It is true that Utah exports a decent chunk of its alfalfa: about 15% by weight. The region’s history with the crop means that Western farmers produce some of the highest quality alfalfa, so specialty buyers source alfalfa from Utah and the Mountain West. This is why the amount of alfalfa exported <em>by value</em> is <a href="https://waterdesk.org/2022/12/one-crop-uses-more-than-half-of-utahs-water-heres-why/">about 29%</a>. Beef is a similar story; you are not eating pasture-raised Montana beef in your $1.29 McDonald’s cheeseburger. Like many others, I am not a big fan of exporting the region’s limited water in the form of alfalfa or beef, though my guess (which could be incorrect) is that buyers who pay a premium for these products could absorb a price increase (tariffs? increased water costs?) without moderating their demand all that much.</p>
+<p>As for the lifestyle and retirement farms, because making money from growing hay isn’t the point, I find little reason to believe that they could be motivated to install costly drip irrigation to improve efficiency. But on the other hand, recent changes to Utah law that allow farmers to let their shares of water go downstream to Great Salt Lake may be impactful for these farms. The big question then is what will keep their land from drying up and being invaded by weeds.</p>
+<p>To be fair, the majority of irrigated acres are concentrated on the relatively few large farms in the state. So while farms under 50 acres make up almost two-thirds of all farms, about 75% of all irrigated acres are on farms greater than 260 acres. This may make changes to water policy a bit more manageable, though it is still important to understand the implications that changes in crop or animal production would have on rural communities. (Chart below by author)</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://raw.githubusercontent.com/natehousley/NatesImages/main/Irrigated%20acres%20by%20size%20of%20farm%202022.png" class="img-fluid figure-img"></p>
+<figcaption>Irrigated farmland by size of farm in Utah, 2022</figcaption>
+</figure>
+</div>
+The point of all this is, yes, agriculture needs to do something differently. There’s no serious debate suggesting otherwise. It consumes such a large chunk of water that there is just not enough for everyone to be able to do whatever they want. At the same time, it is a big mistake to fail to consider agriculture as part of a bigger picture, since no one sector exists independent of the others.
+<p>
+</p>
+<p>
+(Note: This post was updated 9/9/24 to include a detail from <i>Irrigated Eden</i>.)
+</p>
+<p>
+</p><p>
+</p><p>(Note: Updating again 2/6/2025. I wanted to include the following data in the image below to avoid presenting a misleading picture. I compared the rates in the increase of the average acre of farmland and buildings in Western states, finding that a number of them outpaced the national average. The value of farmland and buildings in Wyoming, Utah, and Idaho grew faster than California – which is pretty remarkable considering the dominance of low value forage crops in these states, compared to the more valuable fruits and vegetables in California. But one expect that this would hold true for Nevada, New Mexico, and Arizona as well. Not sure what is happening with Arizona.)</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="https://raw.githubusercontent.com/natehousley/NatesImages/refs/heads/main/Value%20of%20land%20and%20buildings%20per%20acre%20percentage%20increase.png" class="img-fluid figure-img"></p>
+<figcaption>Table of data comparing the value of farmland and buildings in Western states, average per acre and growth from 1992 to 2022</figcaption>
+</figure>
+</div>
+<p>References:</p>
+<p>
+Frederick Jackson Turner, <a href="https://www.historians.org/about-aha-and-membership/aha-history-and-archives/historical-archives/the-significance-of-the-frontier-in-american-history-(1893)">“The Significance of the Frontier in American History,”</a> <em>Annual Report of the American Historical Association</em> (1893)
+</p><p>
+Donald J. Pisani, <i>Water and American Government: The Reclamation Bureau, National Water Policy, and the West, 1902-1935</i>, (Berkeley: University of California Press, 2002)<br>
+
+</p><p>
+Patrick Wolfe, “Settler Colonialism and the Elimination of the Native.” <i>Journal of Genocide Research</i> 8 no 4 (2006): 387–409.
+</p><p>
+Charles S. Peterson and Brian Q. Cannon, <em>The Awkward State of Utah : Coming of Age in the Nation, 1896-1945</em> (Salt Lake City: Utah State Historical Society and The University of Utah Press, 2015).
+</p><p>
+Daniel L. Prager, Sarah Tulman, and Ron Durst, “Economic Returns to Farming for US Farm Households” (US Department of Agriculture Economic Research Service, August 2018).
+</p><p>
+Mark Fiege, <i>Irrigated Eden: The Making of an Agricultural Landscape in the American West</i> (Seattle: University of Washington, 1999).
+</p><p>
+</p>
+
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/natehousley\.com");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
