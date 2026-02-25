@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Efficiency and Resilience
-tags: 
+categories: 
     - water 
     - Colorado River 
     - markets
