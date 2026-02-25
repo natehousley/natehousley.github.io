@@ -2,22 +2,19 @@ project:
   type: website
 
 website:
-  description: "A blog built with Quarto"
-  site-url: https://your-website-url.example.com # you must change this appropriately for RSS feeds to work properly
-  title: "newdir"
+  description: "Nate Housley dot com"
+  site-url: https://natehousley.com 
+  title: "Nate Housley"
   navbar:
     right:
       - about.qmd
-      - icon: github
-        href: https://github.com/
-      - icon: twitter
-        href: https://twitter.com
 format:
   html:
     theme:
-      - cosmo
-      - brand
+      light: flatly
+      dark: darkly
     css: styles.css
+    linestretch: 1.7
 
 
 

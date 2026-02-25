@@ -1,5 +1,5 @@
 ---
-title: "newdir"
+title: "blog"
 listing:
   contents: posts
   feed: true

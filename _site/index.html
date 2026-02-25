@@ -1,0 +1,1671 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.27">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>blog – Nate Housley</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-4d9afe2b8d18ee9fa5d0d57b5ed4214d.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-58f56021f8238d385828291625d100a2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-f90e0aeb93d669b64547a3bec881436d.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-58f56021f8238d385828291625d100a2.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      page: 25,
+    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="styles.css">
+<link rel="alternate" type="application/rss+xml" title="Nate Housley" href="index.xml" data-external="1"></head>
+
+<body class="nav-fixed quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Nate Housley</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-page-left">
+      <h1 class="title">blog</h1>
+                      </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta column-page-left">
+
+      
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(30)</span></div><div class="category" data-category="YWdyaWN1bHR1cmU=">agriculture <span class="quarto-category-count">(6)</span></div><div class="category" data-category="Y2l0aWVz">cities <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Q29sb3JhZG8lMjBSaXZlcg==">Colorado River <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Y29uc2VydmF0aW9u">conservation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ZW52aXJvbm1lbnRhbGlzbQ==">environmentalism <span class="quarto-category-count">(2)</span></div><div class="category" data-category="ZXVnZW5pY3M=">eugenics <span class="quarto-category-count">(1)</span></div><div class="category" data-category="ZmljdGlvbg==">fiction <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R1NM">GSL <span class="quarto-category-count">(10)</span></div><div class="category" data-category="aGlzdG9yaW9ncmFwaHk=">historiography <span class="quarto-category-count">(1)</span></div><div class="category" data-category="bGFuZA==">land <span class="quarto-category-count">(2)</span></div><div class="category" data-category="bWFya2V0cw==">markets <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cG9saXRpY3M=">politics <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cHJpb3IlMjBhcHByb3ByaWF0aW9u">prior appropriation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UHJvZ3Jlc3NpdmVz">Progressives <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cmFjaXNt">racism <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cmVjbGFtYXRpb24=">reclamation <span class="quarto-category-count">(5)</span></div><div class="category" data-category="cmVsaWdpb24=">religion <span class="quarto-category-count">(1)</span></div><div class="category" data-category="c2V0dGxlci1jb2xvbmlhbGlzbQ==">settler-colonialism <span class="quarto-category-count">(3)</span></div><div class="category" data-category="d2F0ZXI=">water <span class="quarto-category-count">(22)</span></div><div class="category" data-category="d2VzdA==">west <span class="quarto-category-count">(1)</span></div><div class="category" data-category="V2VzdA==">West <span class="quarto-category-count">(4)</span></div></div></div>
+<!-- main -->
+<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+
+
+
+
+
+
+
+
+
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="aGlzdG9yaW9ncmFwaHk=" data-listing-date-sort="1770534000000" data-listing-file-modified-sort="1771997311020" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="48" data-listing-word-count-sort="9430">
+<div class="thumbnail"><a href="./posts/Zombie History/index.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/Zombie History/index.html" class="no-external">Zombie History</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('aGlzdG9yaW9ncmFwaHk='); return false;">historiography</div>
+
+</div>
+<div class="delink listing-description"><a href="./posts/Zombie History/index.html" class="no-external">
+The day after the 2016 election, Barack Obama gave a speech that encouraged his supporters to be optimistic about Donald Trump’s presidency.
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/Zombie History/index.html" class="no-external">
+<div class="listing-date">
+Feb 8, 2026
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="d2F0ZXIlMkNmaWN0aW9u" data-listing-date-sort="1767250800000" data-listing-file-modified-sort="1771998695206" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="9" data-listing-word-count-sort="1774">
+<div class="thumbnail"><a href="./posts/The Water Knife/index.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/The Water Knife/index.html" class="no-external">The Water Knife and Fantasies of Collapse</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('d2F0ZXI='); return false;">water</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('ZmljdGlvbg=='); return false;">fiction</div>
+
+</div>
+<div class="delink listing-description"><a href="./posts/The Water Knife/index.html" class="no-external">
+(This post will contain spoilers.)
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/The Water Knife/index.html" class="no-external">
+<div class="listing-date">
+Jan 1, 2026
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2" data-categories="Y2l0aWVzJTJDYWdyaWN1bHR1cmUlMkNsYW5k" data-listing-date-sort="1765782000000" data-listing-file-modified-sort="1771998504706" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1007">
+<div class="thumbnail"><a href="./posts/Agricultural to Urban Land Conversion/index.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/Agricultural to Urban Land Conversion/index.html" class="no-external">Agricultural to Urban Land Conversion</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('Y2l0aWVz'); return false;">cities</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('YWdyaWN1bHR1cmU='); return false;">agriculture</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('bGFuZA=='); return false;">land</div>
+
+</div>
+<div class="delink listing-description"><a href="./posts/Agricultural to Urban Land Conversion/index.html" class="no-external">
+I have been thinking about the broad historical progression in the West from farmland to city, as per usual. (We could even back up a bit more, all the way to the 1820s, and…
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/Agricultural to Urban Land Conversion/index.html" class="no-external">
+<div class="listing-date">
+Dec 15, 2025
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="3" data-categories="d2F0ZXI=" data-listing-date-sort="1753164000000" data-listing-file-modified-sort="1771997163071" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="12" data-listing-word-count-sort="2223">
+<div class="thumbnail"><a href="./posts/On Water and AI/index.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/On Water and AI/index.html" class="no-external">On Water and AI</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('d2F0ZXI='); return false;">water</div>
+
+</div>
+<div class="delink listing-description"><a href="./posts/On Water and AI/index.html" class="no-external">
+If you’ve arrived at this post with no knowledge of Matt Yglesias, your best course of action is to refrain from reading the link below and to close this tab. Go get a…
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/On Water and AI/index.html" class="no-external">
+<div class="listing-date">
+Jul 22, 2025
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="4" data-categories="d2F0ZXI=" data-listing-date-sort="1751695200000" data-listing-file-modified-sort="1771997095014" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="22" data-listing-word-count-sort="4247">
+<div class="thumbnail"><a href="./posts/Cadillac Desert was Too Effective/index.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/Cadillac Desert was Too Effective/index.html" class="no-external">Cadillac Desert Was Too Effective</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('d2F0ZXI='); return false;">water</div>
+
+</div>
+<div class="delink listing-description"><a href="./posts/Cadillac Desert was Too Effective/index.html" class="no-external">
+(Note: This post is thematically similar to a previous post found here. I wrote this one because I wanted to address <em>Cadillac Desert</em> more directly and because of a…
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/Cadillac Desert was Too Effective/index.html" class="no-external">
+<div class="listing-date">
+Jul 5, 2025
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="5" data-categories="d2F0ZXIlMkNQcm9ncmVzc2l2ZXMlMkNwcmlvciUyMGFwcHJvcHJpYXRpb24=" data-listing-date-sort="1749535200000" data-listing-file-modified-sort="1771998536436" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="23" data-listing-word-count-sort="4500">
+<div class="thumbnail"><a href="./posts/Distributive Administration and its Discontents/index.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/Distributive Administration and its Discontents/index.html" class="no-external">Distributive Administration and its Discontents</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('d2F0ZXI='); return false;">water</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('UHJvZ3Jlc3NpdmVz'); return false;">Progressives</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('cHJpb3IlMjBhcHByb3ByaWF0aW9u'); return false;">prior appropriation</div>
+
+</div>
+<div class="delink listing-description"><a href="./posts/Distributive Administration and its Discontents/index.html" class="no-external">
+Legal scholar Moses Lasky, in 1929, declared that “prior-appropriation is the law nowhere in the West.” He was correct, but only if we define what he meant. The prior…
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/Distributive Administration and its Discontents/index.html" class="no-external">
+<div class="listing-date">
+Jun 10, 2025
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="6" data-listing-date-sort="1737788400000" data-listing-file-modified-sort="1771996941560" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="17" data-listing-word-count-sort="3388">
+<div class="thumbnail"><a href="./posts/Efficiency and Resilience/index.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/Efficiency and Resilience/index.html" class="no-external">Efficiency and Resilience</a>
+</h3>
+<div class="delink listing-description"><a href="./posts/Efficiency and Resilience/index.html" class="no-external">
+We are expected to believe that the cause of the West’s water troubles has been definitively diagnosed. Inefficient water consumption has led to too much wasted water. The…
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/Efficiency and Resilience/index.html" class="no-external">
+<div class="listing-date">
+Jan 25, 2025
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="7" data-categories="d2F0ZXIlMkN3ZXN0JTJDcG9saXRpY3M=" data-listing-date-sort="1731913200000" data-listing-file-modified-sort="1771996883892" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="21" data-listing-word-count-sort="4007">
+<div class="thumbnail"><a href="./posts/Whites of this Country/index.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/Whites of this Country/index.html" class="no-external">“The Whites of this Country Are Against the Government”</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('d2F0ZXI='); return false;">water</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('d2VzdA=='); return false;">west</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('cG9saXRpY3M='); return false;">politics</div>
+
+</div>
+<div class="delink listing-description"><a href="./posts/Whites of this Country/index.html" class="no-external">
+Reporting from the Associated Press about a series of talks in 2022 about the Colorado River contains the following detail: “Limiting population growth was not discussed as…
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/Whites of this Country/index.html" class="no-external">
+<div class="listing-date">
+Nov 18, 2024
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="8" data-categories="d2F0ZXIlMkNyZWxpZ2lvbg==" data-listing-date-sort="1730527200000" data-listing-file-modified-sort="1771996825337" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1308">
+<div class="thumbnail"><a href="./posts/Prophetic Perfect Tense/index.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/Prophetic Perfect Tense/index.html" class="no-external">Reclamation in the Prophetic Perfect Tense</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('d2F0ZXI='); return false;">water</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('cmVsaWdpb24='); return false;">religion</div>
+
+</div>
+<div class="delink listing-description"><a href="./posts/Prophetic Perfect Tense/index.html" class="no-external">
+The prophetic perfect tense is a literary style found in the Bible, where something prophesied is written as if it has already occurred. The tense reinforces the idea that…
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/Prophetic Perfect Tense/index.html" class="no-external">
+<div class="listing-date">
+Nov 2, 2024
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="9" data-categories="ZW52aXJvbm1lbnRhbGlzbSUyQ3JhY2lzbSUyQ3dhdGVyJTJDZXVnZW5pY3MlMkNjb25zZXJ2YXRpb24=" data-listing-date-sort="1729749600000" data-listing-file-modified-sort="1771996781709" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="16" data-listing-word-count-sort="3164">
+<div class="thumbnail"><a href="./posts/Racism in Environmentalism/index.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/Racism in Environmentalism/index.html" class="no-external">Racism in Environmentalism and Why it Matters</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('ZW52aXJvbm1lbnRhbGlzbQ=='); return false;">environmentalism</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('cmFjaXNt'); return false;">racism</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('d2F0ZXI='); return false;">water</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('ZXVnZW5pY3M='); return false;">eugenics</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Y29uc2VydmF0aW9u'); return false;">conservation</div>
+
+</div>
+<div class="delink listing-description"><a href="./posts/Racism in Environmentalism/index.html" class="no-external">
+The namesake of the 1902 Newlands Act, or Reclamation Act, was a racist. He was so outspoken in his hatred for Black Americans that in 2022 Congress voted to remove his name…
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/Racism in Environmentalism/index.html" class="no-external">
+<div class="listing-date">
+Oct 24, 2024
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="10" data-categories="R1NMJTJDd2F0ZXIlMkNhZ3JpY3VsdHVyZSUyQ1dlc3Q=" data-listing-date-sort="1729404000000" data-listing-file-modified-sort="1771998321955" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="7" data-listing-word-count-sort="1339">
+<div class="thumbnail"><a href="./posts/No Shortage of Water/index.html" class="no-external">
+
+<img loading="lazy" src="./posts/No Shortage of Water/utah-ag-map.jpg" class="thumbnail-image">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/No Shortage of Water/index.html" class="no-external">There is No Shortage of Water</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('R1NM'); return false;">GSL</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('d2F0ZXI='); return false;">water</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('YWdyaWN1bHR1cmU='); return false;">agriculture</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('V2VzdA=='); return false;">West</div>
+
+</div>
+<div class="delink listing-description"><a href="./posts/No Shortage of Water/index.html" class="no-external">
+This post is an attempt at a short explanation of the problem with water in the US West as I near the end of a multi-year project researching and writing. I came to this…
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/No Shortage of Water/index.html" class="no-external">
+<div class="listing-date">
+Oct 20, 2024
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="11" data-categories="Y2l0aWVzJTJDYWdyaWN1bHR1cmUlMkN3YXRlciUyQ0dTTA==" data-listing-date-sort="1727848800000" data-listing-file-modified-sort="1771996627864" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="15" data-listing-word-count-sort="2887">
+<div class="thumbnail"><a href="./posts/Expansion/index.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/Expansion/index.html" class="no-external">Expansion is at the Root of the Problem</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('Y2l0aWVz'); return false;">cities</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('YWdyaWN1bHR1cmU='); return false;">agriculture</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('d2F0ZXI='); return false;">water</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('R1NM'); return false;">GSL</div>
+
+</div>
+<div class="delink listing-description"><a href="./posts/Expansion/index.html" class="no-external">
+How do we make sense of contemporary water shortages? This post will draw on more in-depth posts that treat the last 50 years or so of water in the West to arrive at a…
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/Expansion/index.html" class="no-external">
+<div class="listing-date">
+Oct 2, 2024
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="12" data-categories="d2F0ZXIlMkNtYXJrZXRz" data-listing-date-sort="1726984800000" data-listing-file-modified-sort="1771995307159" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="11" data-listing-word-count-sort="2068">
+<div class="thumbnail"><a href="./posts/Water Marketing/index.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/Water Marketing/index.html" class="no-external">What’s the Deal with Water Marketing</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('d2F0ZXI='); return false;">water</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('bWFya2V0cw=='); return false;">markets</div>
+
+</div>
+<div class="delink listing-description"><a href="./posts/Water Marketing/index.html" class="no-external">
+Prior appropriation is a bit of a funny thing. There are essentially two simple principles that make up the legal doctrine that governs Western water allocation: seniority…<em></em><em></em>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/Water Marketing/index.html" class="no-external">
+<div class="listing-date">
+Sep 22, 2024
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="13" data-categories="R1NMJTJDd2F0ZXIlMkNlbnZpcm9ubWVudGFsaXNt" data-listing-date-sort="1726120800000" data-listing-file-modified-sort="1771998005084" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="11" data-listing-word-count-sort="2155">
+<div class="thumbnail"><a href="./posts/GSL as Wasteland/index.html" class="no-external">
+
+<img loading="lazy" src="./posts/GSL as Wasteland/Deseret_Promised_Land.png" class="thumbnail-image">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/GSL as Wasteland/index.html" class="no-external">Great Salt Lake as Wasteland</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('R1NM'); return false;">GSL</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('d2F0ZXI='); return false;">water</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('ZW52aXJvbm1lbnRhbGlzbQ=='); return false;">environmentalism</div>
+
+</div>
+<div class="delink listing-description"><a href="./posts/GSL as Wasteland/index.html" class="no-external">
+Historian Jared Farmer, in <em>On Zion’s Mount,</em> relates how Mormon settlers saw the Salt Lake Valley as an oasis only to be remembered later as a desert waste. The hot springs…
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/GSL as Wasteland/index.html" class="no-external">
+<div class="listing-date">
+Sep 12, 2024
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="14" data-categories="d2F0ZXIlMkNhZ3JpY3VsdHVyZSUyQ0dTTA==" data-listing-date-sort="1725343200000" data-listing-file-modified-sort="1771995214818" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="1897">
+<div class="thumbnail"><a href="./posts/Water for City and Country/index.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/Water for City and Country/index.html" class="no-external">Water for City and Country in the late 20th century</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('d2F0ZXI='); return false;">water</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('YWdyaWN1bHR1cmU='); return false;">agriculture</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('R1NM'); return false;">GSL</div>
+
+</div>
+<div class="delink listing-description"><a href="./posts/Water for City and Country/index.html" class="no-external">
+The last major Colorado River projects were approved in 1968. The Bureau of Reclamation declared twenty years later that the “arid West essentially has been reclaimed.” For…
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/Water for City and Country/index.html" class="no-external">
+<div class="listing-date">
+Sep 3, 2024
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="15" data-categories="d2F0ZXIlMkNhZ3JpY3VsdHVyZSUyQ0dTTA==" data-listing-date-sort="1724824800000" data-listing-file-modified-sort="1771998216109" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="17" data-listing-word-count-sort="3279">
+<div class="thumbnail"><a href="./posts/Whats the Deal with Alfalfa/index.html" class="no-external">
+
+<img loading="lazy" src="./posts/Whats the Deal with Alfalfa/Utah_land_and_buildings.png" class="thumbnail-image">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/Whats the Deal with Alfalfa/index.html" class="no-external">What’s the Deal with Alfalfa</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('d2F0ZXI='); return false;">water</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('YWdyaWN1bHR1cmU='); return false;">agriculture</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('R1NM'); return false;">GSL</div>
+
+</div>
+<div class="delink listing-description"><a href="./posts/Whats the Deal with Alfalfa/index.html" class="no-external">
+Agriculture in the Mountain West, like anywhere else, is complex. There are inefficiencies and peculiarities, as many are now aware. About 80% of Utah’s water goes toward…
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/Whats the Deal with Alfalfa/index.html" class="no-external">
+<div class="listing-date">
+Aug 28, 2024
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="16" data-categories="d2F0ZXIlMkNXZXN0" data-listing-date-sort="1722837600000" data-listing-file-modified-sort="1771995116219" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="28" data-listing-word-count-sort="5586">
+<div class="thumbnail"><a href="./posts/The Case of Uphill Flowing Water/index.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/The Case of Uphill Flowing Water/index.html" class="no-external">The Case of Uphill Flowing Water</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('d2F0ZXI='); return false;">water</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('V2VzdA=='); return false;">West</div>
+
+</div>
+<div class="delink listing-description"><a href="./posts/The Case of Uphill Flowing Water/index.html" class="no-external">
+“We all know that water runs uphill toward money,” wrote Colorado governor Richard Lamm in 1976. “Other values are largely ignored.” This adage continues to shape ideas…
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/The Case of Uphill Flowing Water/index.html" class="no-external">
+<div class="listing-date">
+Aug 5, 2024
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="17" data-categories="V2VzdCUyQ3dhdGVyJTJDcmVjbGFtYXRpb24=" data-listing-date-sort="1722146400000" data-listing-file-modified-sort="1771995052116" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="11" data-listing-word-count-sort="2030">
+<div class="thumbnail"><a href="./posts/Short History of Water in the US West/index.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/Short History of Water in the US West/index.html" class="no-external">A Short History of Water in the US West</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('V2VzdA=='); return false;">West</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('d2F0ZXI='); return false;">water</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('cmVjbGFtYXRpb24='); return false;">reclamation</div>
+
+</div>
+<div class="delink listing-description"><a href="./posts/Short History of Water in the US West/index.html" class="no-external">
+The current era of water in the US West begins with Mormon settlement of the Salt Lake Valley in 1847, though irrigation practices from the Spanish settlement period still…
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/Short History of Water in the US West/index.html" class="no-external">
+<div class="listing-date">
+Jul 28, 2024
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="18" data-categories="V2VzdCUyQ3dhdGVyJTJDcmVjbGFtYXRpb24=" data-listing-date-sort="1721714400000" data-listing-file-modified-sort="1771994911660" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="16" data-listing-word-count-sort="3143">
+<div class="thumbnail"><a href="./posts/The Safety Valve/index.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/The Safety Valve/index.html" class="no-external">The Safety Valve</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('V2VzdA=='); return false;">West</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('d2F0ZXI='); return false;">water</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('cmVjbGFtYXRpb24='); return false;">reclamation</div>
+
+</div>
+<div class="delink listing-description"><a href="./posts/The Safety Valve/index.html" class="no-external">
+There are some narratives about the US West that have taken on a life of their own, independent of whether they are true. The West is a resource colony for the East. The…
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/The Safety Valve/index.html" class="no-external">
+<div class="listing-date">
+Jul 23, 2024
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="19" data-categories="d2F0ZXIlMkNzZXR0bGVyLWNvbG9uaWFsaXNtJTJDQ29sb3JhZG8lMjBSaXZlciUyQ3JlY2xhbWF0aW9u" data-listing-date-sort="1711346400000" data-listing-file-modified-sort="1771994929982" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="1897">
+<div class="thumbnail"><a href="./posts/Second Treaty Era/index.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/Second Treaty Era/index.html" class="no-external">The Second Treaty Era</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('d2F0ZXI='); return false;">water</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('c2V0dGxlci1jb2xvbmlhbGlzbQ=='); return false;">settler-colonialism</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Q29sb3JhZG8lMjBSaXZlcg=='); return false;">Colorado River</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('cmVjbGFtYXRpb24='); return false;">reclamation</div>
+
+</div>
+<div class="delink listing-description"><a href="./posts/Second Treaty Era/index.html" class="no-external">
+In 1908, Montana farmers who had been diverting water upstream from the Fort Belknap reservation appealed an injunction from the federal government. Ultimately, the Supreme…<em></em>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/Second Treaty Era/index.html" class="no-external">
+<div class="listing-date">
+Mar 25, 2024
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="20" data-categories="Q29sb3JhZG8lMjBSaXZlciUyQ3dhdGVyJTJDcmVjbGFtYXRpb24=" data-listing-date-sort="1710914400000" data-listing-file-modified-sort="1771994940064" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="1910">
+<div class="thumbnail"><a href="./posts/Our Last Major Water Resource/index.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/Our Last Major Water Resource/index.html" class="no-external">“Our Last Major Water Resource” – The Central Utah Project</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('Q29sb3JhZG8lMjBSaXZlcg=='); return false;">Colorado River</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('d2F0ZXI='); return false;">water</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('cmVjbGFtYXRpb24='); return false;">reclamation</div>
+
+</div>
+<div class="delink listing-description"><a href="./posts/Our Last Major Water Resource/index.html" class="no-external">
+In 1965, governor of Utah George Clyde referred to the Colorado River as “our last major water resource.” He was correct about this, but his estimation that it would be “key…
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/Our Last Major Water Resource/index.html" class="no-external">
+<div class="listing-date">
+Mar 20, 2024
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="21" data-categories="R1NMJTJDd2F0ZXIlMkNyZWNsYW1hdGlvbiUyQ0NvbG9yYWRvJTIwUml2ZXI=" data-listing-date-sort="1709881200000" data-listing-file-modified-sort="1771997927316" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1428">
+<div class="thumbnail"><a href="./posts/Race to the Bottom/index.html" class="no-external">
+
+<img loading="lazy" src="./posts/Race to the Bottom/ColoradoRiver_use_supply.jpg" class="thumbnail-image">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/Race to the Bottom/index.html" class="no-external">Race to the Bottom – The Law of the River</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('R1NM'); return false;">GSL</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('d2F0ZXI='); return false;">water</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('cmVjbGFtYXRpb24='); return false;">reclamation</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Q29sb3JhZG8lMjBSaXZlcg=='); return false;">Colorado River</div>
+
+</div>
+<div class="delink listing-description"><a href="./posts/Race to the Bottom/index.html" class="no-external">
+At the turn of the twentieth century, the population of Los Angeles had just cleared 100,000. This made it a fair bit larger than Salt Lake County, but the desert metropolis…
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/Race to the Bottom/index.html" class="no-external">
+<div class="listing-date">
+Mar 8, 2024
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="22" data-listing-date-sort="1708844400000" data-listing-file-modified-sort="1771994683325" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1562">
+<div class="thumbnail"><a href="./posts/Sinful Rivers We Must Curb/index.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/Sinful Rivers We Must Curb/index.html" class="no-external">The Sinful Rivers We Must Curb</a>
+</h3>
+<div class="delink listing-description"><a href="./posts/Sinful Rivers We Must Curb/index.html" class="no-external">
+During the middle of the nineteenth century, the meaning of “wilderness” began to change. For Anglo-american farmers, wilderness had long been something to clear away…
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/Sinful Rivers We Must Curb/index.html" class="no-external">
+<div class="listing-date">
+Feb 25, 2024
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="23" data-listing-date-sort="1706770800000" data-listing-file-modified-sort="1771998279747" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="16" data-listing-word-count-sort="3089">
+<div class="thumbnail"><a href="./posts/Free for All/index.html" class="no-external">
+
+<img loading="lazy" src="./posts/Free for All/centralutahproject.webp" class="thumbnail-image">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/Free for All/index.html" class="no-external">Free-for-all in the Uinta Basin</a>
+</h3>
+<div class="delink listing-description"><a href="./posts/Free for All/index.html" class="no-external">
+<em>Note: An extended version of this post appears at Weaving Rivers here.</em>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/Free for All/index.html" class="no-external">
+<div class="listing-date">
+Feb 1, 2024
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="24" data-listing-date-sort="1704870000000" data-listing-file-modified-sort="1771994574762" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="16" data-listing-word-count-sort="3072">
+<div class="thumbnail"><a href="./posts/Boosters and Crusaders/index.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/Boosters and Crusaders/index.html" class="no-external">Boosters and Crusaders, Megacities and the Safety Valve: Iterations on the Oldest New Idea in the West</a>
+</h3>
+<div class="delink listing-description"><a href="./posts/Boosters and Crusaders/index.html" class="no-external">
+In the last few years, powerful people have proposed building new cities from scratch in the US West. The odds are stacked against their success, but it’s worth viewing them…
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/Boosters and Crusaders/index.html" class="no-external">
+<div class="listing-date">
+Jan 10, 2024
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="25" data-categories="R1NMJTJDYWdyaWN1bHR1cmU=" data-listing-date-sort="1703142000000" data-listing-file-modified-sort="1771998136385" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="15" data-listing-word-count-sort="2923">
+<div class="thumbnail"><a href="./posts/How Not to Make the Desert Blossom as the Rose/index.html" class="no-external">
+
+<img loading="lazy" data-src="./posts/How Not to Make the Desert Blossom as the Rose/SeagullMonument.jpeg" class="thumbnail-image">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/How Not to Make the Desert Blossom as the Rose/index.html" class="no-external">How (Not) to Make the Desert Blossom as the Rose</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('R1NM'); return false;">GSL</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('YWdyaWN1bHR1cmU='); return false;">agriculture</div>
+
+</div>
+<div class="delink listing-description"><a href="./posts/How Not to Make the Desert Blossom as the Rose/index.html" class="no-external">
+In the Salt Lake Valley in the spring of 1848, crickets and grasshoppers emerged en masse. The voracious locusts ate the tender plants of grains and vegetables that the…
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/How Not to Make the Desert Blossom as the Rose/index.html" class="no-external">
+<div class="listing-date">
+Dec 21, 2023
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="26" data-categories="d2F0ZXIlMkNHU0w=" data-listing-date-sort="1701586800000" data-listing-file-modified-sort="1771997844648" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="8" data-listing-word-count-sort="1572">
+<div class="thumbnail"><a href="./posts/100th Meridian/index.html" class="no-external">
+
+<img loading="lazy" data-src="./posts/100th Meridian/Mean_Center.jpg" class="thumbnail-image">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/100th Meridian/index.html" class="no-external">The 100th Meridian: Where ‘Free Land’ Requires ‘Free Water’</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('d2F0ZXI='); return false;">water</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('R1NM'); return false;">GSL</div>
+
+</div>
+<div class="delink listing-description"><a href="./posts/100th Meridian/index.html" class="no-external">
+The westward expansion of the United States accelerated considerably with 1862’s Homestead Act. But by the following decade, the movement of the frontier had slowed to a…
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/100th Meridian/index.html" class="no-external">
+<div class="listing-date">
+Dec 3, 2023
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="27" data-categories="d2F0ZXIlMkNHU0wlMkNzZXR0bGVyLWNvbG9uaWFsaXNt" data-listing-date-sort="1700895600000" data-listing-file-modified-sort="1771994378956" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="11" data-listing-word-count-sort="2067">
+<div class="thumbnail"><a href="./posts/Agrarian Foundations/index.html" class="no-external">
+
+<img loading="lazy" data-src="./posts/Agrarian Foundations/powell4.jpg" class="thumbnail-image">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/Agrarian Foundations/index.html" class="no-external">The Agrarian Foundations of the Western Water Crisis</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('d2F0ZXI='); return false;">water</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('R1NM'); return false;">GSL</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('c2V0dGxlci1jb2xvbmlhbGlzbQ=='); return false;">settler-colonialism</div>
+
+</div>
+<div class="delink listing-description"><a href="./posts/Agrarian Foundations/index.html" class="no-external">
+The first irrigation project on federal land began in 1867. It was authorized through the Bureau of Indian Affairs (BIA) for the Colorado River Indian Reservation. It was…
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/Agrarian Foundations/index.html" class="no-external">
+<div class="listing-date">
+Nov 25, 2023
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="28" data-categories="c2V0dGxlci1jb2xvbmlhbGlzbSUyQ2xhbmQ=" data-listing-date-sort="1700550000000" data-listing-file-modified-sort="1771993996148" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="18" data-listing-word-count-sort="3542">
+<div class="thumbnail"><a href="./posts/Defensive Conquest and Victim Narratives/index.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/Defensive Conquest and Victim Narratives/index.html" class="no-external">Defensive Conquest and Victim Narratives</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('c2V0dGxlci1jb2xvbmlhbGlzbQ=='); return false;">settler-colonialism</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('bGFuZA=='); return false;">land</div>
+
+</div>
+<div class="delink listing-description"><a href="./posts/Defensive Conquest and Victim Narratives/index.html" class="no-external">
+In a tiny town named Almo in southern Idaho there is a monument to a massacre that claimed the lives of 295 people traveling along the Oregon Trail in 1861. The memorialized…
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/Defensive Conquest and Victim Narratives/index.html" class="no-external">
+<div class="listing-date">
+Nov 21, 2023
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="29" data-categories="d2F0ZXIlMkNHU0w=" data-listing-date-sort="1699513200000" data-listing-file-modified-sort="1771993938489" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="655">
+<div class="thumbnail"><a href="./posts/Great Salt Lake and Western Water Introduction/index.html" class="no-external">
+
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/Great Salt Lake and Western Water Introduction/index.html" class="no-external">Great Salt Lake and Western Water: Introduction</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('d2F0ZXI='); return false;">water</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('R1NM'); return false;">GSL</div>
+
+</div>
+<div class="delink listing-description"><a href="./posts/Great Salt Lake and Western Water Introduction/index.html" class="no-external">
+Welcome to my blog. I’ve decided to use this site to communicate my perspective on the crisis facing Great Salt Lake. My goal is to break this big, complex problem into…
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/Great Salt Lake and Western Water Introduction/index.html" class="no-external">
+<div class="listing-date">
+Nov 9, 2023
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+<nav id="listing-pagination" class="listing-pagination" aria-label="Page Navigation">
+  <ul class="pagination"></ul>
+</nav>
+</div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/natehousley\.com");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
