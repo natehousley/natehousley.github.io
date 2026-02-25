@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Free-for-all in the Uinta Basin
-tags: 
+categories: 
     - GSL 
     - water 
     - Utah

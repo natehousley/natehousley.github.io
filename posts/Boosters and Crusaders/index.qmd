@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Boosters and Crusaders, Megacities and the Safety Valve: Iterations on the Oldest New Idea in the West"
-tags: 
+categories: 
     - GSL 
     - water
 date: "01/10/2024"

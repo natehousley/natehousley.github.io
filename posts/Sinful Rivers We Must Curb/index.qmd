@@ -1,7 +1,7 @@
 ---
 layout: post
 title: The Sinful Rivers We Must Curb
-tags: 
+categories: 
     - GSL 
     - environment
 date: "02/25/2024"
