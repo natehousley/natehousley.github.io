@@ -7,13 +7,13 @@ website:
   site-url: https://natehousley.com 
   title: "Nate Housley"
   navbar:
-    right:
+    left:
       - about.qmd
 format:
   html:
     theme:
-      light: flatly
-      dark: darkly
+      light: customlight.scss
+      dark: customdark.scss
     css: styles.css
     linestretch: 1.7
 
