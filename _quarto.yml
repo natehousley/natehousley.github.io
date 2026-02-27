@@ -9,6 +9,9 @@ website:
   navbar:
     left:
       - about.qmd
+    right:
+      - icon: rss
+        href: index.xml
 format:
   html:
     theme:
