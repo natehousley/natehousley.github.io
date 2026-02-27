@@ -3,6 +3,7 @@ title: "About"
 image: Housley_headshot.jpg
 about:
   template: solana
+  image-shape: round
   links:
     - icon: bluesky
       text: Bluesky
