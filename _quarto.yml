@@ -12,6 +12,8 @@ website:
     right:
       - icon: rss
         href: index.xml
+  draft-mode: unlinked
+
 format:
   html:
     theme:
