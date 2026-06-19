@@ -6,7 +6,7 @@ categories:
   - history of the US West
   - agriculture
 date: 6/19/2026
-image: basinconsumption.png
+image: Basinconsumption.png
 draft: false
 csl: ieee.csl
 bibliography: otherface.bib
