@@ -6,7 +6,7 @@ categories:
   - history of the US West
   - agriculture
 date: 6/17/2026
-draft: true
+draft: false
 csl: ieee.csl
 bibliography: otherface.bib
 nocite: |
