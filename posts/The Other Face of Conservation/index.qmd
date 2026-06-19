@@ -5,7 +5,8 @@ categories:
   - water
   - history of the US West
   - agriculture
-date: 6/17/2026
+date: 6/19/2026
+image: basinconsumption.png
 draft: false
 csl: ieee.csl
 bibliography: otherface.bib
