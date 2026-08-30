@@ -1,0 +1,29 @@
+---
+layout: post
+title: "About Water Markets"
+date: 
+draft: true
+---
+
+One of the main things I would like to communicate to people about water in the US West is that the problem with water that capitalism needs to solve is not just scarcity but the dynamism of fresh water supplies. To state the obvious, fresh water is produced through an annual climatic cycle, and how much water becomes available for human consumption varies quite dramatically year to year. Because water is necessary in some amount for every economic activity in the region, investment depends on a steady, reliable supply. Dams have gone a long way in smoothing out the supply curve of Western rivers and streams that flow from mountain snowpacks, but every water user faces variability to some degree.
+
+While it is not fully accurate (just as giving disproportionate attention to water scarcity is not fully accurate), one can very well reframe an analysis of Western water to view *surplus* as the problem to be solved, as a thought experiment. Irrigation dams in the nineteenth-century, seen in this light, solved the problem of surplus "flood" waters in the spring, which arrived when farmers had little need of them. Storing this surplus water, which was otherwise "wasted" if allowed to flow to the ocean or to seep into underground aquifers, allowed Western states to attract more settlers. 
+
+The era of building dams is over, and while all of this elaborate engineering has gone a long way in mitigating dramatic swings in water supply from year to year, human demand is still susceptible to years-long trends. This means that in drought periods, industries might experience shortages. In wet periods, there might be surplus water that fails to be put to its highest use -- which is     intolerable to capitalist logic, especially in a region that depends so heavily on in-migration to fuel economic growth. 
+
+And so the prevailing view is that we desperately need water marketing. With robust markets for trading water, we can seemingly continue to pursue the dream of tightly calibrated supply and demand curves. Popular reporting and opinion does not typically reflect the policy discourse that happens among experts and professionals, but there are some shared premises in both. 
+
+For starters, characterizing the problem as the misallocation of a scarce good lobs the question squarely into economists' court. Economists are given even more deference in our current era, in which nearly every policy problem is assumed at base to be a matter of economics. Conventional wisdom holds that water, specifically, was ruinously mishandled by government and its profligate subsidies. It's the sort of problem that economics was designed to fix, and markets are the discipline's foremost tool.
+
+One of the observations I would like to make about water markets is that using them as the solution is a little too textbook -- suspiciously so. They are largely a solution in search of a problem. There are more complexities than water marketing can address (or have addressed), and fitting them to the real world inevitably lands us back in the realm of the political. 
+
+Going along with that, water marketing is sometimes characterized as a radical departure from the West's existing scheme, based on the prior appropriation doctrine. In reality, depending to some degree on the details, water markets already exist. Reforming those markets can entail -- and has entailed -- some significant tweaks to water law. But if you want to buy and sell water rights, I have great news for you! They are real property and nothing has ever stopped you.
+
+[Map of water trading activity]
+
+
+
+
+https://westwaterresearch.com/forecasting-californias-water-market/
+https://www.ppic.org/publication/improving-californias-water-market/
+https://www.ppic.org/publication/californias-water-market/
