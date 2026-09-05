@@ -4,6 +4,9 @@ title: "About Water Markets"
 date: 9/4/2026
 draft: false
 image: digupstupid.jpg
+categories:
+  -water
+  -markets
 ---
 
 ![Will I get a copyright strike for this?](digupstupid.jpg)
