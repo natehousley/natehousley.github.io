@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.8.27">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="dcterms.date" content="2026-09-04">
+
+<title>About Water Markets – Nate Housley</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-4d9afe2b8d18ee9fa5d0d57b5ed4214d.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-8ef9442f0d79ae1528aefa789017a5c1.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-cf4b8df3f53c95d3783f8f13aff9823c.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap-8ef9442f0d79ae1528aefa789017a5c1.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="nav-fixed fullcontent quarto-light"><script id="quarto-html-before-body" type="application/javascript">
+    const toggleBodyColorMode = (bsSheetEl) => {
+      const mode = bsSheetEl.getAttribute("data-mode");
+      const bodyEl = window.document.querySelector("body");
+      if (mode === "dark") {
+        bodyEl.classList.add("quarto-dark");
+        bodyEl.classList.remove("quarto-light");
+      } else {
+        bodyEl.classList.add("quarto-light");
+        bodyEl.classList.remove("quarto-dark");
+      }
+    }
+    const toggleBodyColorPrimary = () => {
+      const bsSheetEl = window.document.querySelector("link#quarto-bootstrap:not([rel=disabled-stylesheet])");
+      if (bsSheetEl) {
+        toggleBodyColorMode(bsSheetEl);
+      }
+    }
+    const setColorSchemeToggle = (alternate) => {
+      const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+      for (let i=0; i < toggles.length; i++) {
+        const toggle = toggles[i];
+        if (toggle) {
+          if (alternate) {
+            toggle.classList.add("alternate");
+          } else {
+            toggle.classList.remove("alternate");
+          }
+        }
+      }
+    };
+    const toggleColorMode = (alternate) => {
+      // Switch the stylesheets
+      const primaryStylesheets = window.document.querySelectorAll('link.quarto-color-scheme:not(.quarto-color-alternate)');
+      const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+      manageTransitions('#quarto-margin-sidebar .nav-link', false);
+      if (alternate) {
+        // note: dark is layered on light, we don't disable primary!
+        enableStylesheet(alternateStylesheets);
+        for (const sheetNode of alternateStylesheets) {
+          if (sheetNode.id === "quarto-bootstrap") {
+            toggleBodyColorMode(sheetNode);
+          }
+        }
+      } else {
+        disableStylesheet(alternateStylesheets);
+        enableStylesheet(primaryStylesheets)
+        toggleBodyColorPrimary();
+      }
+      manageTransitions('#quarto-margin-sidebar .nav-link', true);
+      // Switch the toggles
+      setColorSchemeToggle(alternate)
+      // Hack to workaround the fact that safari doesn't
+      // properly recolor the scrollbar when toggling (#1455)
+      if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+        manageTransitions("body", false);
+        window.scrollTo(0, 1);
+        setTimeout(() => {
+          window.scrollTo(0, 0);
+          manageTransitions("body", true);
+        }, 40);
+      }
+    }
+    const disableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        stylesheet.rel = 'disabled-stylesheet';
+      }
+    }
+    const enableStylesheet = (stylesheets) => {
+      for (let i=0; i < stylesheets.length; i++) {
+        const stylesheet = stylesheets[i];
+        if(stylesheet.rel !== 'stylesheet') { // for Chrome, which will still FOUC without this check
+          stylesheet.rel = 'stylesheet';
+        }
+      }
+    }
+    const manageTransitions = (selector, allowTransitions) => {
+      const els = window.document.querySelectorAll(selector);
+      for (let i=0; i < els.length; i++) {
+        const el = els[i];
+        if (allowTransitions) {
+          el.classList.remove('notransition');
+        } else {
+          el.classList.add('notransition');
+        }
+      }
+    }
+    const isFileUrl = () => {
+      return window.location.protocol === 'file:';
+    }
+    const hasAlternateSentinel = () => {
+      let styleSentinel = getColorSchemeSentinel();
+      if (styleSentinel !== null) {
+        return styleSentinel === "alternate";
+      } else {
+        return false;
+      }
+    }
+    const setStyleSentinel = (alternate) => {
+      const value = alternate ? "alternate" : "default";
+      if (!isFileUrl()) {
+        window.localStorage.setItem("quarto-color-scheme", value);
+      } else {
+        localAlternateSentinel = value;
+      }
+    }
+    const getColorSchemeSentinel = () => {
+      if (!isFileUrl()) {
+        const storageValue = window.localStorage.getItem("quarto-color-scheme");
+        return storageValue != null ? storageValue : localAlternateSentinel;
+      } else {
+        return localAlternateSentinel;
+      }
+    }
+    const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+      const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+      const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+      let newTheme = '';
+      if(authorPrefersDark) {
+        newTheme = isAlternate ? baseTheme : alternateTheme;
+      } else {
+        newTheme = isAlternate ? alternateTheme : baseTheme;
+      }
+      const changeGiscusTheme = () => {
+        // From: https://github.com/giscus/giscus/issues/336
+        const sendMessage = (message) => {
+          const iframe = document.querySelector('iframe.giscus-frame');
+          if (!iframe) return;
+          iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+        }
+        sendMessage({
+          setConfig: {
+            theme: newTheme
+          }
+        });
+      }
+      const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+      if (isGiscussLoaded) {
+        changeGiscusTheme();
+      }
+    };
+    const authorPrefersDark = false;
+    const darkModeDefault = authorPrefersDark;
+      document.querySelector('link#quarto-text-highlighting-styles.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+      document.querySelector('link#quarto-bootstrap.quarto-color-scheme-extra').rel = 'disabled-stylesheet';
+    let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+    // Dark / light mode switch
+    window.quartoToggleColorScheme = () => {
+      // Read the current dark / light value
+      let toAlternate = !hasAlternateSentinel();
+      toggleColorMode(toAlternate);
+      setStyleSentinel(toAlternate);
+      toggleGiscusIfUsed(toAlternate, darkModeDefault);
+      window.dispatchEvent(new Event('resize'));
+    };
+    // Switch to dark mode if need be
+    if (hasAlternateSentinel()) {
+      toggleColorMode(true);
+    } else {
+      toggleColorMode(false);
+    }
+  </script>
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Nate Housley</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="../../index.xml"> <i class="bi bi-rss" role="img">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">About Water Markets</h1>
+                      </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      
+      <div>
+      <div class="quarto-title-meta-heading">Published</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">September 4, 2026</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+
+
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="digupstupid.jpg" class="img-fluid figure-img"></p>
+<figcaption>Will I get a copyright strike for this?</figcaption>
+</figure>
+</div>
+<p>One of the main things I would like to communicate to people about water in the US West is that capitalism’s problem with water is not just scarcity but the dynamism of fresh water supplies. To state the obvious, fresh water is produced through an annual climatic cycle, and how much water becomes available for human consumption varies quite dramatically year to year. Because water is necessary in some amount for every economic activity in the region, investment depends on a steady, reliable supply. Dams have gone a long way in smoothing out the supply curve of Western rivers and streams that flow from mountain snowpacks, but every water user faces variability to some degree.</p>
+<p>While it is not fully accurate (just as giving disproportionate attention to water scarcity is not fully accurate), one could engage in a thought experiment that reframes <em>surplus</em> as the problem to be solved. Irrigation dams in the nineteenth-century, in this light, solved the problem of surplus “flood” waters in the spring, which arrived when farmers had little need of them. Storing this surplus water, which was otherwise “wasted” if allowed to flow to the ocean or to seep into underground aquifers, met existing demands while allowing Western states to attract more settlers.</p>
+<p>The era of building dams is over, and while all of this elaborate engineering has gone a long way in mitigating dramatic swings in water supply from year to year, human demand is unable to sync up perfectly with a variable supply. People move, and industries rise and fall, influenced by economic cycles. This means that in drought periods, industry might experience shortages. In wet periods, there might be surplus water that fails to be put to its highest use – which is similarly intolerable to capitalist logic, especially in a region that depends so heavily on in-migration to fuel economic growth.</p>
+<p>So the prevailing view is that we desperately need water marketing. With robust markets for trading water, we can seemingly continue to pursue the dream of tightly calibrated supply and demand curves. Popular reporting and opinion does not typically reflect the policy discourse that happens among experts and professionals, but both tend to view the problem as the misallocation of a scarce good. Pursuing this line of thought lobs the question squarely into economists’ court. Economists are given extra deference in our current era, in which nearly every policy problem is assumed at base to be a matter of economics. Conventional wisdom holds that water, specifically, was ruinously mishandled by government and its profligate subsidies. It’s the sort of problem that economics was designed to fix, and markets are the discipline’s foremost tool.</p>
+<p>One of the observations I would like to make about water markets is that using them as the solution is a little too textbook – suspiciously so. I contend that water marketing is largely a solution in search of a problem. There are more complexities than water marketing can address (or have addressed), and fitting these markets to real world conditions inevitably lands us back in the realm of the political.</p>
+<p>Going along with that, water marketing is sometimes characterized as a radical departure from the West’s existing scheme, based on the prior appropriation doctrine. In reality, depending to some degree on the details, water markets already exist. Reforming those markets can entail – and has entailed – some significant tweaks to water law. But if you want to buy and sell water rights, I have great news for you! “<a href="https://www.nasdaq.com/products/global-indexes/thematic/veles-water">Water trading</a> occurs in every western state, with more than 20 distinct regions where market activity routinely occurs.”</p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="NQH2O.jpg" class="img-fluid figure-img"></p>
+<figcaption>via NASDAQ</figcaption>
+</figure>
+</div>
+<p>The following will not be any kind of systematic review of water marketing proposals but rather a scattershot sampling of what’s out there. And there are plenty of these out there. There are rather explicit ideological proposals from think tanks as well as more nuanced takes from academics and professionals, but the rough consensus in Western water policy seems to be that water marketing should play some role in reforming Western water use patterns.</p>
+<p>There are two goals here: channeling water toward higher-value uses and reducing overall water consumption. Many think that these are entirely complementary goals, and I disagree. But framing the problem as an economic one makes a market intervention appear both obvious and sophisticated. The Hamilton Project, a Brookings Institution initiative whose goal is “to advance America’s promise of opportunity, prosperity, and growth,” published a <a href="https://www.hamiltonproject.org/wp-content/uploads/2023/01/how_the_market_can_mitigate_water_shortage_in_west_brief.pdf">policy brief</a> in 2014 titled “Shopping for Water: How the Market Can Mitigate Water Shortages in the American West.” The authors put it bluntly: “In sum, water scarcity is an economic problem that demands an economic solution.”</p>
+<p>But this is not true! Water scarcity is a political problem, and these types of statements are doing political work in steering the politics of water toward market reform. Consider for instance the looming crisis on the Colorado River. Seven states are trying to get as much water as possible from a dwindling river while also keeping the system limping along. Is there a purely economic explanation for the Colorado River Compact or for why the federal government continues to sit back and let the states tussle over its infrastructure? Naturally, Western states are thinking about their future economic growth, but this is why “political economy” is such a useful frame of reference.</p>
+<p>A few paragraphs before their statement about economic solutions, the authors note that one of the challenges facing surface water markets is the ability of water users to access groundwater. “In the absence of regulation, a prospective water user will choose to access free groundwater instead of paying for access to a more sustainable, but comparatively expensive, supply of surface water.” This is a great point! But what exactly is the economic solution for regulating groundwater?</p>
+<p>In fact, farmers’ access to groundwater is one factor that led the Bureau of Reclamation to offer such generous contracts with irrigation districts. People seem to commonly reverse cause and effect when talking about the subsidization of federal irrigation projects. For example, when proposing the initial contracts for the <a href="https://gspp.berkeley.edu/archived/files/research/pdf/cap.pdf">Central Arizona Project</a>, agricultural and municipal &amp; industrial agencies alike suggested that their demand was higher than what resulted when the project began delivering water. Partly because of cheaper access to groundwater, Reclamation was forced to lower its prices for contracts in order to remain competitive so it could recoup construction costs. As a result, cheap CAP water went undersubscribed for a time. To be clear, there are not many defenders of Reclamation’s financial practices, and I am not one of them. Their problems were largely self-inflicted. But I find the common interpretation of agricultural water subsidies, based on “porkbarrel” spending and/or bureaucratic inefficiency, to be highly ideological and misleading in its omission of other motivators for building expensive dam projects. Regardless of fiscal, geographic, or hydrological concerns, the CAP was necessary for Arizona to access its share of the Colorado River. That alone is entirely sufficient as an explanation for why it was built.</p>
+<p>I was being a little flip in declaring that water markets already exist, since there are considerable legal concerns that inhibit trading for many water appropriators. But I think it’s important to highlight to the general reader that the conversation is about reform rather than the creation of an entirely new animal. The Hamilton Project paper points to the existence of rules in Western states that require water users to “document the new location, purpose, and use of the water before it can be transferred.” This is known as the “anti-speculation doctrine,” in their words. I won’t necessarily defend the doctrine’s name, but I can’t pass up the opportunity to point out that the authors’ proposal to “jettison” the anti-speculation doctrine is a little on the nose. In a <a href="https://www.perc.org/wp-content/uploads/2022/09/PPR-Water-Markets-220916-WEB.pdf">report</a> for the Property and Environment Research Center, a free-market think tank, two contributors go so far as to affirm the place of speculators in an ideal water market: “The participation of speculators accelerates trading and creates a robust environment that can easily allow hedgers [traders that rely on water] to transfer risk.” If you say so!</p>
+<p>Historically, the purpose of this type of anti-speculation rule was to promote the use of water for the development of land and to discourage trading on water itself. This makes it difficult for water users to make short-term transfers or leases that reflect shifts in supply. But if the goal is to shift water supplies to conservation, states can (and have) relaxed rules around beneficial use or included conservation as a recognized use that will not lead to loss of their water right. That can happen independent of market reform.</p>
+<p>But beyond the (intentional) checks on water rights transfers under the prior appropriation doctrine, these transfers are limited in scope by geography: “The physical difficulty and expense of moving large quantities of water pose significant challenges to getting water to where it is needed.” As a partial remedy, the Hamilton Project calls for the introduction of options contracts “to insure against costs associated with inevitable supply disruptions.” (Remember my argument that the primary goal is to allow demand to pivot as quickly as supply?) At a certain point, this type of thing begins to read to me like shaping real-world markets to be more like the ones that economists dream up. The <a href="https://www.ppic.org/publication/californias-water-market/">Public Policy Institute of California</a> (in 2021) points out, “Water sales grew significantly during the 1990s, but trading has stayed flat since then.” Part of the reason is that “most trading occurs within the same county (46%) or region (26%).” Their suggestion is to streamline regulatory rules. Another recommendation is to establish groundwater markets with “strong basin accounting systems, caps on how much each water user may pump, and processes to avoid harm to other water users.” Again, these are political questions, and I think we should all be wary about deregulation, broadly speaking. The report points to transfers toward environmental uses as part of the promise of markets. But if markets work as intended in raising the price of water, then certainly market-based conservation will become more expensive and more difficult as a result.</p>
+<p>Another point that pops up in some of these proposals is that water has a social importance independent of its price as a commodity. As political scientist Dan McCool puts it in his book <em>Native Waters</em>, “Markets are an effective means of allocating private economic goods, but they completely lack any sensitivity to nonmarket values. A market has no respect for culture, no long-term understanding of the public good, no sense of justice.” Proponents of water marketing will often nod to this concern and treat it as a given that regulations will take such things into account. (I had an example of this, but I am not good at taking notes and lost it). I feel strongly that such matters should not be taken for granted.</p>
+<p>Now let’s look at how following the logic of markets leads to unexpected places. I’m really savoring this next one. WestWater Research in a <a href="https://westwaterresearch.com/forecasting-californias-water-market/">report</a> from earlier this year finds that water market prices in California are highly volatile, depending on the year’s natural supply of water. To help remedy this, they support the building of the state’s proposed storage and conveyance infrastructure to “reduce peak spot-market prices for water.” In other words, the government should resume building dams and pipelines. I’m in awe of how seamlessly the case for markets to sort out the problems with government has become the case for government to sort out the problems with the market. Dig up, stupid!</p>
+<p>The contributors to the PERC report also see “storability” as an important factor in helping water markets achieve optimal efficiency, though their recommendation is that this happen in a public-private underground aquifer like the Kern Water Bank. (The notorious Resnicks, owners of the Pom Wonderful company, have a majority interest in this water bank). There’s something to be said for using aquifers as storage, though the authors note that even then the Kern Water Bank assumes 10% of banked water lost to evaporation, and transferring water outside of Kern County could incur a further loss of 5%. Marc Reisner, author of <em>Cadillac Desert</em>, worked for Vidler Water Company in the 1990s as it pursued a similar scheme. Recent <a href="https://grist.org/drought/vidler-water-company-housing-dr-horton-nevada-arizona/">reporting</a> about Vidler demonstrates the troubling potential for this type of company to speculate on water even within the traditional bounds of prior appropriation. But again, my point is that engineering was the primary means of smoothing the supply curve of water in the twentieth century; now using markets for that same purpose apparently leads us back to engineering.</p>
+<p>You may wonder why we don’t simply ditch the prior appropriation doctrine, since it incentivizes the use of water for no apparent reason other than holding on to the water right. A fellow at the <a href="https://www.bushcenter.org/publications/how-water-markets-would-make-americas-western-cities-sustainable">George W. Bush Institute</a> suggests that we could do just that: “One solution would be for federal and state policymakers to throw out the doctrine of prior appropriation. It exists only in statutory and case law, so lawmakers are free to override it. Then they could auction off water rights over time.” I genuinely can’t tell if this is a kind of <a href="https://en.wikipedia.org/wiki/A_Modest_Proposal">modest proposal</a>, since it’s the single most batshit thing I’ve ever read about water. The idea that prior appropriation only exists in statutory and case law may be technically true, but more importantly, prior appropriation is foundational to Western society and will simply never be taken up for debate in federal or state legislatures.</p>
+<p>To the author’s credit, he goes on to walk back his own ludicrous idea: “Overriding prior appropriation rights risks undermining markets, since governments create significant uncertainty when they threaten to revoke or dilute the value of tradeable privileges bestowed in the past… Current rights holders, moreover, would likely sue public authorities for engaging in inappropriate ‘taking.’” This is still, somehow, an understatement of the fallout that would come from “throwing out” prior appropriation in the seventeen states that use some version of it. But the author makes an important point: water rights are property, and they are a type of property that rests on the prior appropriation doctrine. Besides, prior appropriation includes the principle that water itself (as opposed to the right to access some amount of it) is public property, managed by the states as a public trust. This provision is found in the constitutions of Western states, for what that’s worth. If the argument is that we all should be buying water itself, how do we transfer ownership and to whom? Don’t think about it too hard; it won’t happen.</p>
+<p>There is another proposal that I came across which recommends raising the price of wholesale water in the Lower Colorado River Basin independent of markets. The <a href="https://www.ioes.ucla.edu/wp-content/uploads/2025/12/Water-Pricing-Report.pdf">report</a> comes from an institute at UCLA and highlights the disparity between agricultural and municipal &amp; industrial districts in federal water contracts; agricultural districts pay much lower costs on average for federal project water. The authors propose adding a surcharge of about $50 per acre-feet to “provide funding for system resilience or for modernizing aging equipment and infrastructure, while providing a price signal recognizing the scarcity of water.” I have no objection.</p>
+<p>If Western water problems are indeed economic ones that require economic solutions, then we should, at the very least, factor in land values rather than just water prices. I’m increasingly puzzled by the total lack of attention to this. (I’ve looked and looked for this type of analysis and come up short! If it’s out there please send it to me!) If you ask a historian about the 1902 Reclamation Act, they will likely tell you it was a kind of extension of the 1862 Homestead Act. Few people discuss the Homestead Act in terms of bushels of grain produced; why not consider the effect that Western reclamation had on establishing homes for settlers and raising the price of land?</p>
+<p>A brief <a href="https://www.colorado.edu/center/gwc/ColoradoRiverInsights2025DancingWithDeadpool">proposal</a> from authors at the Kyl Center for Water Policy at Arizona State University gestures in this direction. The proposal calls for conservation easements and land purchases, either adapting existing agricultural land for conservation purposes or taking it out of production. The proposal is modeled after a New Deal program that acquired over 11 million acres. As they correctly note, “Neither agricultural-to-urban transfers nor assigned water programs significantly reduce overall Colorado River demands and neither significantly bolsters collective resilience or system reliability.” I think this type of thinking is entirely appropriate, as it gets closer to the core purpose of reclamation and also factors in the key value of resilience. I am leery, however, of the authors’ assertion that this is not a “buy and dry” program – something which has become a byword in the West. A key difference is that, unlike buy and dry programs, municipalities are not buying farmland to retire it and use associated water rights, but I am not sure that Western farmers will have a less severe reaction to the federal government’s purchasing of land. It’s worth a shot?</p>
+<p>If I were to sum up my feelings about water marketing, I would say that I am skeptical about the ability of further liberalized markets to significantly reduce overall water consumption. In theory, markets would be able to smooth out temporal fluctuations in demand for water, which would be preferable to water itself being consumed in a way that mitigates supply shocks. However, I think there are significant real-world obstacles to achieving the desired level of efficiency, and I am highly skeptical that much more of this valuable water would be dedicated to the environment. I am not necessarily opposed to experimenting with the idea, but that is because I expect significant political opposition to introducing complex financial instruments into water markets on a broad scale. Maybe I’m being overly optimistic on that point, which would be unusual for me. Anyway, it may be worth considering the relative advantages of the devil we know, even if what we currently have will not last as it is much longer. We should think critically about what will replace the current status quo. The logic of markets is part of the paradigm that governs our lives: like water, capital wants our labor to exist in discrete, fungible units that move according to economic demand. We can begin to reject that logic and imagine a future where trade is subservient to human needs rather than vice versa.</p>
+
+
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    // Ensure there is a toggle, if there isn't float one in the top right
+    if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+      const a = window.document.createElement('a');
+      a.classList.add('top-right');
+      a.classList.add('quarto-color-scheme-toggle');
+      a.href = "";
+      a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+      const i = window.document.createElement("i");
+      i.classList.add('bi');
+      a.appendChild(i);
+      window.document.body.appendChild(a);
+    }
+    setColorSchemeToggle(hasAlternateSentinel())
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/natehousley\.com");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
